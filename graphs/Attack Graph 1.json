@@ -1,0 +1,2656 @@
+{
+  "type": "bundle",
+  "id": "bundle--ad66369b-9d9f-4b31-b9c6-3a4b3ee70038",
+  "spec_version": "2.1",
+  "objects": [
+    {
+      "type": "x-idoubles-attack-graph",
+      "id": "x-idoubles-attack-graph--4b8c5e7e-6583-4ee0-8433-ee4f833be4ef",
+      "spec_version": "2.1",
+      "created": "2026-08-31T09:39:15.181952469",
+      "modified": "2026-08-31T09:39:33.730121472",
+      "name": "Emotet Attack Graph 1",
+      "first_seen": "2026-08-31T00:00:00",
+      "status": "DRAFT",
+      "confidence_score": "0.9550000000000001",
+      "matrix": ["ENTERPRISE_ATTACK"],
+      "threat_actor_refs": ["threat-actor--45f7cbec-ece0-5178-b4a1-be54c719df44"],
+      "threat_scenario_refs": ["x-idoubles-scenario--13b26a68-d2f2-4384-8c93-52b046c2c42f"],
+      "uploaded_file_refs": ["x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"],
+      "reference_refs": []
+    },
+    {
+      "type": "x-idoubles-scenario",
+      "id": "x-idoubles-scenario--13b26a68-d2f2-4384-8c93-52b046c2c42f",
+      "spec_version": "2.1",
+      "name": "Baiting",
+      "description": "A technique that entices victims to give up personal information by promising an item or something of interest.",
+      "goals": ["Financial gain", "Information theft and espionage"],
+      "motivations": []
+    },
+    {
+      "type": "x-idoubles-file",
+      "id": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "spec_version": "2.1",
+      "name": "Emotet 3.pdf",
+      "content_type": "pdf",
+      "order": [
+        "artifact--e72c2e7b-1082-4924-864b-5c270de6ec1f",
+        "artifact--b654bfb3-b0f1-4ac5-9d36-7af4f9b8e8bd",
+        "paragraph--26251b7f-eaa8-45af-a5b6-9ab6687bcd00",
+        "paragraph--65a0e0d1-85c1-4131-b77b-a8d7722aa200",
+        "paragraph--b3ff32f2-2000-4856-aafd-067be2ce7ba1",
+        "paragraph--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7",
+        "paragraph--ce329a3e-0dfc-480a-92cd-8f907d1ef233",
+        "artifact--e11b12d8-97a4-44e8-9cf0-73c3a60666e1",
+        "artifact--877b1e1b-0cfd-438e-9940-0ff28ca2e12d",
+        "artifact--36a8b7af-b672-4f58-a4f4-43863c093dd0",
+        "paragraph--44043c86-eb05-49f0-93be-09b6d93e7270",
+        "paragraph--de816665-61a2-45af-91f5-1890b390f52c",
+        "paragraph--8b128e74-325e-4bea-8b5a-14e081ecf531",
+        "paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe",
+        "paragraph--a9074205-a951-43e7-a0f3-e0d05966ff45",
+        "paragraph--9d840df9-1afa-48d0-8f8d-0d56bba43e76",
+        "paragraph--5dffc31c-4458-4787-b524-8def4af22d1c",
+        "paragraph--c538e550-4a84-4240-ae95-2a533bdbaff5",
+        "paragraph--0b782ec8-95db-46c6-90da-422fb96f864a",
+        "artifact--6fa5bf1d-9389-4fd1-a522-f0df7023115f",
+        "paragraph--b326f36b-65ce-4147-9c97-affc20516243",
+        "paragraph--d7d4c7cc-e370-445f-a430-4ae2b5ac9397",
+        "paragraph--ab89f52d-3c9a-462f-a806-4346d8b253cb",
+        "paragraph--f350f00e-0a6d-44b6-88c4-aafccb135ff1",
+        "paragraph--f6238624-bdcb-4a99-a408-7b3f2a9974bf",
+        "paragraph--f4a57e71-9771-44aa-8272-2b68a5117c9c",
+        "artifact--a5055900-8a4a-4b4e-9eac-882aaacb409c",
+        "paragraph--fd092927-e882-4b14-980c-fca30e1d0f36",
+        "paragraph--e5511f0c-8774-4ee9-a493-a31b92dd7d1f",
+        "paragraph--94bbb6a1-2fb5-497e-8b91-a268aa957a10",
+        "paragraph--56180a52-6182-4b76-8bd9-a42f6653b78c",
+        "paragraph--14ce7220-4110-4d75-bf4b-c31e95e37357",
+        "artifact--581b0474-4d8d-40ee-9482-f79ee3782834",
+        "paragraph--02e53154-984b-4b46-9a56-e98b725a4906",
+        "paragraph--fe9b9aea-714d-474f-aaa9-fcf5cad7a88a"
+      ]
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--6fa5bf1d-9389-4fd1-a522-f0df7023115f",
+      "spec_version": "2.1",
+      "artifact_type": "HEADING",
+      "level": 2,
+      "content": "Attack Patterns and Structured Threat Intelligence:"
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--b654bfb3-b0f1-4ac5-9d36-7af4f9b8e8bd",
+      "spec_version": "2.1",
+      "artifact_type": "HEADING",
+      "level": 2,
+      "content": "Key Findings:"
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--877b1e1b-0cfd-438e-9940-0ff28ca2e12d",
+      "spec_version": "2.1",
+      "artifact_type": "TABLE",
+      "header": ["T1078", "Use of stolen credentials for unauthorized access"],
+      "heading": null,
+      "caption": null,
+      "is_ioc": false,
+      "is_ttp": true,
+      "rows": [
+        {
+          "row_id": "f01c7f92-cf44-4c0b-801a-3fe1e53698a6",
+          "content": ["T1036", "Codeobfuscation and signed binaries employed to bypass security controls"],
+          "ttp": null,
+          "row_index": null
+        },
+        {
+          "row_id": "509b0e93-1330-44c6-8c56-ce5179b59a93",
+          "content": ["T1003", "LSASSmemorydumpingvia Cobalt Strike"],
+          "ttp": null,
+          "row_index": null
+        },
+        {
+          "row_id": "689e6f44-cbee-469e-8d26-1a4e9484c735",
+          "content": ["T1204", "Spear-phishing emails delivering QakBot to establish foothold"],
+          "ttp": null,
+          "row_index": null
+        },
+        {
+          "row_id": "1a961f5d-0a45-4bb2-a034-0418f85c3eff",
+          "content": ["T1547", "Registry modifications to maintain malware presence"],
+          "ttp": null,
+          "row_index": null
+        },
+        {
+          "row_id": "19db1f14-4993-45b6-b2da-fd980dd1a173",
+          "content": ["T1056", "MimiKatz used to extract plaintext credentials"],
+          "ttp": null,
+          "row_index": null
+        },
+        {
+          "row_id": "d83f1945-b29e-4910-b963-10f441f9227c",
+          "content": ["T1567", "ExMatter and Rclone used for data theft"],
+          "ttp": null,
+          "row_index": null
+        },
+        {
+          "row_id": "5dfaf536-6eb1-4d4e-94fa-bff7bde59376",
+          "content": ["T1021", "RDPabuse for internal spread"],
+          "ttp": null,
+          "row_index": null
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--581b0474-4d8d-40ee-9482-f79ee3782834",
+      "spec_version": "2.1",
+      "artifact_type": "HEADING",
+      "level": 2,
+      "content": "Conclusion:"
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--a5055900-8a4a-4b4e-9eac-882aaacb409c",
+      "spec_version": "2.1",
+      "artifact_type": "HEADING",
+      "level": 2,
+      "content": "Recommendations:"
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--e72c2e7b-1082-4924-864b-5c270de6ec1f",
+      "spec_version": "2.1",
+      "artifact_type": "HEADING",
+      "level": 2,
+      "content": "Enhanced Threat Report: Expanding on LockBit 3.0 Attack Patterns"
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--36a8b7af-b672-4f58-a4f4-43863c093dd0",
+      "spec_version": "2.1",
+      "artifact_type": "HEADING",
+      "level": 2,
+      "content": "Incident Overview:"
+    },
+    {
+      "type": "x-idoubles-artifact",
+      "id": "x-idoubles-artifact--e11b12d8-97a4-44e8-9cf0-73c3a60666e1",
+      "spec_version": "2.1",
+      "artifact_type": "HEADING",
+      "level": 2,
+      "content": "Tactics, Techniques, and Procedures (TTPs) Observed:"
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--0b57388e-ceb1-4888-a7ef-b6d171da6ab7",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 1,
+      "name": "C2: - ExMatter, previously linked to BlackMatter, was used for d...",
+      "anchor_text": "- ExMatter, previously linked to BlackMatter, was used for data exfiltration in the attack.",
+      "start_global_index": 4,
+      "end_global_index": 4,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--b3ff32f2-2000-4856-aafd-067be2ce7ba1"],
+      "artifact_refs": ["x-idoubles-artifact--b3ff32f2-2000-4856-aafd-067be2ce7ba1"],
+      "ttp_details": [
+        {
+          "ttp": "T1567",
+          "confidence": "1.0",
+          "rationale": "The narrative specifies that the ExMatter tool was used to exfiltrate data during the attack, directly illustrating the Data Exfiltration technique. This tool facilitates bulk transfer of files from the victim environment to the attacker.",
+          "artifactIds": ["b3ff32f2-2000-4856-aafd-067be2ce7ba1"],
+          "ttpName": "Exfiltration Over Web Service"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--fb83aab9-9cc6-45b9-a924-e3ff63d3be3d",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 10,
+      "name": "C11: Another common attack pattern involved Remote Desktop Protoc...",
+      "anchor_text": "Another common attack pattern involved Remote Desktop Protocol (RDP) Exploitation (T1021), which facilitated lateral movement within the network.",
+      "start_global_index": 23,
+      "end_global_index": 23,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--f350f00e-0a6d-44b6-88c4-aafccb135ff1"],
+      "artifact_refs": ["x-idoubles-artifact--f350f00e-0a6d-44b6-88c4-aafccb135ff1"],
+      "ttp_details": [
+        {
+          "ttp": "T1021",
+          "confidence": "1.0",
+          "rationale": "The paragraph describes adversaries exploiting Remote Desktop Protocol as a form of Remote Services (T1021) to move laterally across the network. By abusing the RDP service, the attacker can open remote sessions on target hosts, enabling internal propagation. This aligns with the Remote Services technique, which involves leveraging legitimate remote access mechanisms for lateral movement.",
+          "artifactIds": ["f350f00e-0a6d-44b6-88c4-aafccb135ff1"],
+          "ttpName": "Remote Services"
+        },
+        {
+          "ttp": "T1021.001",
+          "confidence": "0.7",
+          "rationale": "The text explicitly mentions the exploitation of Remote Desktop Protocol (RDP), which corresponds to the sub‑technique Remote Desktop Protocol (T1021.001). The attacker leverages RDP to gain interactive remote access to other systems, facilitating lateral movement within the environment. This behavior matches the definition of the sub‑technique that uses RDP to connect to remote machines for lateral propagation.",
+          "artifactIds": ["f350f00e-0a6d-44b6-88c4-aafccb135ff1"],
+          "ttpName": "Remote Desktop Protocol"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--69e3e1a8-45af-4531-b3ac-9b291bb62b9b",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 9,
+      "name": "C10: This led to credential harvesting ( T1056 ) using Mimikatz,...",
+      "anchor_text": "This led to credential harvesting ( T1056 ) using Mimikatz, allowing privilege escalation.",
+      "start_global_index": 22,
+      "end_global_index": 22,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--ab89f52d-3c9a-462f-a806-4346d8b253cb"],
+      "artifact_refs": ["x-idoubles-artifact--ab89f52d-3c9a-462f-a806-4346d8b253cb"],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--5b585bb3-3ec0-46d3-bcf0-009da89212c3",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 12,
+      "name": "C13: - Deploy endpoint detection & response (EDR) tools to detect...",
+      "anchor_text": "- Deploy endpoint detection & response (EDR) tools to detect Cobalt Strike activity.",
+      "start_global_index": 28,
+      "end_global_index": 27,
+      "page_number": 0,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--fd092927-e882-4b14-980c-fca30e1d0f36",
+        "x-idoubles-paragraph--e5511f0c-8774-4ee9-a493-a31b92dd7d1f"
+      ],
+      "artifact_refs": [
+        "x-idoubles-artifact--e5511f0c-8774-4ee9-a493-a31b92dd7d1f",
+        "x-idoubles-artifact--fd092927-e882-4b14-980c-fca30e1d0f36"
+      ],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--4f2a319e-edde-4384-b7f9-8f02bb45316b",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 0,
+      "name": "C1: - An FS-ISAC member experienced a cyber incident involving L...",
+      "anchor_text": "- An FS-ISAC member experienced a cyber incident involving LockBit 3.0 ransomware affecting ESXi servers.",
+      "start_global_index": 2,
+      "end_global_index": 12,
+      "page_number": 0,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--8b128e74-325e-4bea-8b5a-14e081ecf531",
+        "x-idoubles-paragraph--44043c86-eb05-49f0-93be-09b6d93e7270",
+        "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe",
+        "x-idoubles-paragraph--26251b7f-eaa8-45af-a5b6-9ab6687bcd00",
+        "x-idoubles-paragraph--65a0e0d1-85c1-4131-b77b-a8d7722aa200"
+      ],
+      "artifact_refs": [
+        "x-idoubles-artifact--44043c86-eb05-49f0-93be-09b6d93e7270",
+        "x-idoubles-artifact--8b128e74-325e-4bea-8b5a-14e081ecf531",
+        "x-idoubles-artifact--65a0e0d1-85c1-4131-b77b-a8d7722aa200",
+        "x-idoubles-artifact--26251b7f-eaa8-45af-a5b6-9ab6687bcd00",
+        "x-idoubles-artifact--6d311dd9-c9e5-454f-832d-84d16757eafe"
+      ],
+      "ttp_details": [
+        {
+          "ttp": "T1567",
+          "confidence": "0.5",
+          "rationale": "The incident description notes that the ransomware group exfiltrated victim data prior to encrypting it, a hallmark of the Data Exfiltration technique where attackers steal information before impacting availability. By extracting files before the encryption step, the actors ensure they have leverage for double extortion, matching the ATT&CK definition of exfiltrating data as a preparatory step.",
+          "artifactIds": ["65a0e0d1-85c1-4131-b77b-a8d7722aa200", "6d311dd9-c9e5-454f-832d-84d16757eafe"],
+          "ttpName": "Exfiltration Over Web Service"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--6ac49290-e926-4acd-8271-7fe9d110b98d",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 5,
+      "name": "C6: The use of T1078 (Stolen Credentials) enabled the attackers...",
+      "anchor_text": "The use of T1078 (Stolen Credentials) enabled the attackers to gain initial access to the environment, bypassing authentication mechanisms.",
+      "start_global_index": 14,
+      "end_global_index": 24,
+      "page_number": 0,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--a9074205-a951-43e7-a0f3-e0d05966ff45",
+        "x-idoubles-paragraph--f6238624-bdcb-4a99-a408-7b3f2a9974bf"
+      ],
+      "artifact_refs": [
+        "x-idoubles-artifact--a9074205-a951-43e7-a0f3-e0d05966ff45",
+        "x-idoubles-artifact--f6238624-bdcb-4a99-a408-7b3f2a9974bf"
+      ],
+      "ttp_details": [
+        {
+          "ttp": "T1036",
+          "confidence": "1.0",
+          "rationale": "Obfuscation tactics were employed to disguise malicious artifacts, making detection by security tools more difficult. By altering filenames, encoding payloads, or using deceptive identifiers, the attackers concealed their activity. This corresponds to the defense‑evasion technique of masquerading or obfuscating malicious code.",
+          "artifactIds": ["f6238624-bdcb-4a99-a408-7b3f2a9974bf"],
+          "ttpName": "Masquerading"
+        },
+        {
+          "ttp": "T1003",
+          "confidence": "1.0",
+          "rationale": "The threat actors performed credential dumping, extracting password hashes and secrets from the operating system, which aligns with the OS Credential Dumping technique used to obtain credential material for further exploitation.",
+          "artifactIds": ["f6238624-bdcb-4a99-a408-7b3f2a9974bf"],
+          "ttpName": "OS Credential Dumping"
+        },
+        {
+          "ttp": "T1078",
+          "confidence": "1.0",
+          "rationale": "The adversary leveraged stolen credentials to bypass authentication mechanisms and directly accessed the target environment, matching the Valid Accounts technique that enables initial compromise through compromised accounts.",
+          "artifactIds": ["a9074205-a951-43e7-a0f3-e0d05966ff45"],
+          "ttpName": "Valid Accounts"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 3,
+      "name": "C4: - Additional malware strains, such as BlackCat (ALPHV) and Q...",
+      "anchor_text": "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+      "start_global_index": 6,
+      "end_global_index": 33,
+      "page_number": 0,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--c538e550-4a84-4240-ae95-2a533bdbaff5",
+        "x-idoubles-paragraph--02e53154-984b-4b46-9a56-e98b725a4906",
+        "x-idoubles-paragraph--5dffc31c-4458-4787-b524-8def4af22d1c",
+        "x-idoubles-paragraph--ce329a3e-0dfc-480a-92cd-8f907d1ef233",
+        "x-idoubles-paragraph--0b782ec8-95db-46c6-90da-422fb96f864a"
+      ],
+      "artifact_refs": [
+        "x-idoubles-artifact--c538e550-4a84-4240-ae95-2a533bdbaff5",
+        "x-idoubles-artifact--5dffc31c-4458-4787-b524-8def4af22d1c",
+        "x-idoubles-artifact--ce329a3e-0dfc-480a-92cd-8f907d1ef233",
+        "x-idoubles-artifact--02e53154-984b-4b46-9a56-e98b725a4906",
+        "x-idoubles-artifact--0b782ec8-95db-46c6-90da-422fb96f864a"
+      ],
+      "ttp_details": [
+        {
+          "ttp": "T1486",
+          "confidence": "1.0",
+          "rationale": "The paragraph states that Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim. This directly matches the Data Encrypted for Impact technique, where ransomware encrypts victim data to achieve its destructive effect. The described encryption activity is the defining behavior of this technique.",
+          "artifactIds": ["0b782ec8-95db-46c6-90da-422fb96f864a"],
+          "ttpName": "Data Encrypted for Impact"
+        },
+        {
+          "ttp": "T1567",
+          "confidence": "1.0",
+          "rationale": "The investigation notes that ExMatter and Rclone were actively used to extract sensitive data before encryption, consistent with the Data Exfiltration technique. This dual‑tool approach demonstrates deliberate theft of information prior to impact.",
+          "artifactIds": ["c538e550-4a84-4240-ae95-2a533bdbaff5"],
+          "ttpName": "Exfiltration Over Web Service"
+        },
+        {
+          "ttp": "T1547",
+          "confidence": "0.9",
+          "rationale": "Recovered from a structured TTP table row; no paragraph cleared the similarity floor (best 0.44), attached to the closest context with the table row as sole evidence.",
+          "artifactIds": ["1a961f5d-0a45-4bb2-a034-0418f85c3eff"],
+          "ttpName": "Boot or Logon Autostart Execution"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--cc0b3f29-01ae-471d-b432-19c80e8792a3",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 4,
+      "name": "C5: Shortly after, iongroup. com appeared on LockBit's leak site...",
+      "anchor_text": "Shortly after, iongroup. com appeared on LockBit's leak site, though later removed.",
+      "start_global_index": 11,
+      "end_global_index": 11,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--de816665-61a2-45af-91f5-1890b390f52c"],
+      "artifact_refs": ["x-idoubles-artifact--de816665-61a2-45af-91f5-1890b390f52c"],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--dc6334ad-8525-4520-8b25-ca45bf162bb1",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 13,
+      "name": "C14: - Monitor for abnormal network traffic, particularly Rclone...",
+      "anchor_text": "- Monitor for abnormal network traffic, particularly Rclone and ExMatter usage (T1567).",
+      "start_global_index": 30,
+      "end_global_index": 29,
+      "page_number": 0,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--94bbb6a1-2fb5-497e-8b91-a268aa957a10",
+        "x-idoubles-paragraph--56180a52-6182-4b76-8bd9-a42f6653b78c"
+      ],
+      "artifact_refs": [
+        "x-idoubles-artifact--56180a52-6182-4b76-8bd9-a42f6653b78c",
+        "x-idoubles-artifact--94bbb6a1-2fb5-497e-8b91-a268aa957a10"
+      ],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--a0690288-8695-43a8-a351-3dff8649ffcd",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 8,
+      "name": "C9: The observed attack followed the 'Spear Phishing with Malici...",
+      "anchor_text": "The observed attack followed the 'Spear Phishing with Malicious Attachment' (T1204) pattern, where an attacker lured victims into opening an infected file.",
+      "start_global_index": 21,
+      "end_global_index": 21,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--d7d4c7cc-e370-445f-a430-4ae2b5ac9397"],
+      "artifact_refs": ["x-idoubles-artifact--d7d4c7cc-e370-445f-a430-4ae2b5ac9397"],
+      "ttp_details": [
+        {
+          "ttp": "T1204",
+          "confidence": "1.0",
+          "rationale": "The attack employed a spear‑phishing campaign with a malicious attachment, enticing the recipient to open the file and thereby trigger execution of the malicious payload, which is characteristic of the User Execution technique.",
+          "artifactIds": ["d7d4c7cc-e370-445f-a430-4ae2b5ac9397"],
+          "ttpName": "User Execution"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--7ab65139-f249-4069-b412-3478d4619645",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 11,
+      "name": "C12: Understanding these attack patterns enables defenders to map...",
+      "anchor_text": "Understanding these attack patterns enables defenders to map real-world incidents to known adversary behaviors, improving detection and response strategies.",
+      "start_global_index": 25,
+      "end_global_index": 25,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--f4a57e71-9771-44aa-8272-2b68a5117c9c"],
+      "artifact_refs": ["x-idoubles-artifact--f4a57e71-9771-44aa-8272-2b68a5117c9c"],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--80f3a4c0-e61b-428e-af4b-e857000ac143",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 7,
+      "name": "C8: Attack patterns in Structured Threat Information Expression...",
+      "anchor_text": "Attack patterns in Structured Threat Information Expression (STIX) format, commonly known as SDOs (Structured Data Objects), provide a framework to understand and mitigate threats.",
+      "start_global_index": 20,
+      "end_global_index": 20,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--b326f36b-65ce-4147-9c97-affc20516243"],
+      "artifact_refs": ["x-idoubles-artifact--b326f36b-65ce-4147-9c97-affc20516243"],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--6c6be80a-a96c-401d-845c-cc3dafe85f0e",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 6,
+      "name": "C7: Additionally, T1204 (Spear Phishing) was used to deliver Qak...",
+      "anchor_text": "Additionally, T1204 (Spear Phishing) was used to deliver QakBot, facilitating remote command execution and malware deployment.",
+      "start_global_index": 15,
+      "end_global_index": 31,
+      "page_number": 0,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--9d840df9-1afa-48d0-8f8d-0d56bba43e76",
+        "x-idoubles-paragraph--14ce7220-4110-4d75-bf4b-c31e95e37357"
+      ],
+      "artifact_refs": [
+        "x-idoubles-artifact--14ce7220-4110-4d75-bf4b-c31e95e37357",
+        "x-idoubles-artifact--9d840df9-1afa-48d0-8f8d-0d56bba43e76"
+      ],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--e644b5fe-d930-4b71-add8-33c12b7f50d0",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 14,
+      "name": "C15: The adoption of MFA, advanced monitoring, and proactive secu...",
+      "anchor_text": "The adoption of MFA, advanced monitoring, and proactive security policies can help mitigate these threats effectively.",
+      "start_global_index": 34,
+      "end_global_index": 34,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--fe9b9aea-714d-474f-aaa9-fcf5cad7a88a"],
+      "artifact_refs": ["x-idoubles-artifact--fe9b9aea-714d-474f-aaa9-fcf5cad7a88a"],
+      "ttp_details": []
+    },
+    {
+      "type": "x-idoubles-context",
+      "id": "x-idoubles-context--15fb1ad6-cbde-49ba-8420-b84ce99eb988",
+      "spec_version": "2.1",
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f",
+      "cluster_index": 2,
+      "name": "C3: - Recent intelligence indicates an increase in the use of Mi...",
+      "anchor_text": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "start_global_index": 5,
+      "end_global_index": 5,
+      "page_number": 0,
+      "paragraph_refs": ["x-idoubles-paragraph--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7"],
+      "artifact_refs": ["x-idoubles-artifact--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7"],
+      "ttp_details": [
+        {
+          "ttp": "T1003",
+          "confidence": "0.9",
+          "rationale": "The intelligence report highlights an increased use of MimiKatz for credential harvesting, a tool that extracts stored credentials from memory and other system locations. This activity exemplifies OS Credential Dumping, a credential‑access method used to obtain user and system passwords. The mention of MimiKatz confirms the technique being employed.",
+          "artifactIds": ["bdc5f871-ae8e-4c25-b7bc-310f2d2627d7"],
+          "ttpName": "OS Credential Dumping"
+        },
+        {
+          "ttp": "T1003.001",
+          "confidence": "0.7",
+          "rationale": "Mimikatz was observed being used to harvest credentials, a classic example of OS Credential Dumping from LSASS memory, which aligns with the OS Credential Dumping sub‑technique. By extracting password hashes and plain‑text credentials, the attackers gain privileged access.",
+          "artifactIds": ["bdc5f871-ae8e-4c25-b7bc-310f2d2627d7"],
+          "ttpName": "LSASS Memory"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--56180a52-6182-4b76-8bd9-a42f6653b78c",
+      "spec_version": "2.1",
+      "paragraph_id": "56180a52-6182-4b76-8bd9-a42f6653b78c",
+      "segment": "- Monitor for abnormal network traffic, particularly Rclone and ExMatter usage (T1567).",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--c538e550-4a84-4240-ae95-2a533bdbaff5",
+      "spec_version": "2.1",
+      "paragraph_id": "c538e550-4a84-4240-ae95-2a533bdbaff5",
+      "segment": "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--b3ff32f2-2000-4856-aafd-067be2ce7ba1",
+      "spec_version": "2.1",
+      "paragraph_id": "b3ff32f2-2000-4856-aafd-067be2ce7ba1",
+      "segment": "- ExMatter, previously linked to BlackMatter, was used for data exfiltration in the attack.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe",
+      "spec_version": "2.1",
+      "paragraph_id": "6d311dd9-c9e5-454f-832d-84d16757eafe",
+      "segment": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--ab89f52d-3c9a-462f-a806-4346d8b253cb",
+      "spec_version": "2.1",
+      "paragraph_id": "ab89f52d-3c9a-462f-a806-4346d8b253cb",
+      "segment": "This led to credential harvesting ( T1056 ) using Mimikatz, allowing privilege escalation.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7",
+      "spec_version": "2.1",
+      "paragraph_id": "bdc5f871-ae8e-4c25-b7bc-310f2d2627d7",
+      "segment": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--f6238624-bdcb-4a99-a408-7b3f2a9974bf",
+      "spec_version": "2.1",
+      "paragraph_id": "f6238624-bdcb-4a99-a408-7b3f2a9974bf",
+      "segment": "The attackers effectively combined credential dumping (T1003) and obfuscation (T1036) to evade detection while setting up persistence mechanisms.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--e5511f0c-8774-4ee9-a493-a31b92dd7d1f",
+      "spec_version": "2.1",
+      "paragraph_id": "e5511f0c-8774-4ee9-a493-a31b92dd7d1f",
+      "segment": "- Deploy endpoint detection & response (EDR) tools to detect Cobalt Strike activity.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--0b782ec8-95db-46c6-90da-422fb96f864a",
+      "spec_version": "2.1",
+      "paragraph_id": "0b782ec8-95db-46c6-90da-422fb96f864a",
+      "segment": "This aligns with T1486 (Ransomware Deployment), where Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--ce329a3e-0dfc-480a-92cd-8f907d1ef233",
+      "spec_version": "2.1",
+      "paragraph_id": "ce329a3e-0dfc-480a-92cd-8f907d1ef233",
+      "segment": "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--65a0e0d1-85c1-4131-b77b-a8d7722aa200",
+      "spec_version": "2.1",
+      "paragraph_id": "65a0e0d1-85c1-4131-b77b-a8d7722aa200",
+      "segment": "- LockBit 3.0 is a RaaS derived from BlackMatter ransomware, employing double extortion tactics by exfiltrating data before encryption.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--9d840df9-1afa-48d0-8f8d-0d56bba43e76",
+      "spec_version": "2.1",
+      "paragraph_id": "9d840df9-1afa-48d0-8f8d-0d56bba43e76",
+      "segment": "Additionally, T1204 (Spear Phishing) was used to deliver QakBot, facilitating remote command execution and malware deployment.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--14ce7220-4110-4d75-bf4b-c31e95e37357",
+      "spec_version": "2.1",
+      "paragraph_id": "14ce7220-4110-4d75-bf4b-c31e95e37357",
+      "segment": "- Educate employees on phishing threats, reducing the risk of QakBot infections (T1204).",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--d7d4c7cc-e370-445f-a430-4ae2b5ac9397",
+      "spec_version": "2.1",
+      "paragraph_id": "d7d4c7cc-e370-445f-a430-4ae2b5ac9397",
+      "segment": "The observed attack followed the 'Spear Phishing with Malicious Attachment' (T1204) pattern, where an attacker lured victims into opening an infected file.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--44043c86-eb05-49f0-93be-09b6d93e7270",
+      "spec_version": "2.1",
+      "paragraph_id": "44043c86-eb05-49f0-93be-09b6d93e7270",
+      "segment": "On 31 January 2023, ION Clear Derivatives suffered a ransomware attack, later attributed to LockBit 3.0.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--26251b7f-eaa8-45af-a5b6-9ab6687bcd00",
+      "spec_version": "2.1",
+      "paragraph_id": "26251b7f-eaa8-45af-a5b6-9ab6687bcd00",
+      "segment": "- An FS-ISAC member experienced a cyber incident involving LockBit 3.0 ransomware affecting ESXi servers.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--5dffc31c-4458-4787-b524-8def4af22d1c",
+      "spec_version": "2.1",
+      "paragraph_id": "5dffc31c-4458-4787-b524-8def4af22d1c",
+      "segment": "T1036 (Obfuscation Techniques) played a crucial role in bypassing endpoint detection tools, allowing the ransomware to execute stealthily.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--de816665-61a2-45af-91f5-1890b390f52c",
+      "spec_version": "2.1",
+      "paragraph_id": "de816665-61a2-45af-91f5-1890b390f52c",
+      "segment": "Shortly after, iongroup. com appeared on LockBit's leak site, though later removed.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--f350f00e-0a6d-44b6-88c4-aafccb135ff1",
+      "spec_version": "2.1",
+      "paragraph_id": "f350f00e-0a6d-44b6-88c4-aafccb135ff1",
+      "segment": "Another common attack pattern involved Remote Desktop Protocol (RDP) Exploitation (T1021), which facilitated lateral movement within the network.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--b326f36b-65ce-4147-9c97-affc20516243",
+      "spec_version": "2.1",
+      "paragraph_id": "b326f36b-65ce-4147-9c97-affc20516243",
+      "segment": "Attack patterns in Structured Threat Information Expression (STIX) format, commonly known as SDOs (Structured Data Objects), provide a framework to understand and mitigate threats.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--f4a57e71-9771-44aa-8272-2b68a5117c9c",
+      "spec_version": "2.1",
+      "paragraph_id": "f4a57e71-9771-44aa-8272-2b68a5117c9c",
+      "segment": "Understanding these attack patterns enables defenders to map real-world incidents to known adversary behaviors, improving detection and response strategies.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--8b128e74-325e-4bea-8b5a-14e081ecf531",
+      "spec_version": "2.1",
+      "paragraph_id": "8b128e74-325e-4bea-8b5a-14e081ecf531",
+      "segment": "ION confirmed no ransom was paid.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--a9074205-a951-43e7-a0f3-e0d05966ff45",
+      "spec_version": "2.1",
+      "paragraph_id": "a9074205-a951-43e7-a0f3-e0d05966ff45",
+      "segment": "The use of T1078 (Stolen Credentials) enabled the attackers to gain initial access to the environment, bypassing authentication mechanisms.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--02e53154-984b-4b46-9a56-e98b725a4906",
+      "spec_version": "2.1",
+      "paragraph_id": "02e53154-984b-4b46-9a56-e98b725a4906",
+      "segment": "This incident highlights the evolving ransomware landscape, where multiple groups reuse TTPs and tools across attacks.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--94bbb6a1-2fb5-497e-8b91-a268aa957a10",
+      "spec_version": "2.1",
+      "paragraph_id": "94bbb6a1-2fb5-497e-8b91-a268aa957a10",
+      "segment": "- Conduct regular backups stored offline to counter ransomware encryption (T1486).",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--fd092927-e882-4b14-980c-fca30e1d0f36",
+      "spec_version": "2.1",
+      "paragraph_id": "fd092927-e882-4b14-980c-fca30e1d0f36",
+      "segment": "- Implement multi-factor authentication (MFA) to mitigate credential theft (T1078).",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-paragraph",
+      "id": "x-idoubles-paragraph--fe9b9aea-714d-474f-aaa9-fcf5cad7a88a",
+      "spec_version": "2.1",
+      "paragraph_id": "fe9b9aea-714d-474f-aaa9-fcf5cad7a88a",
+      "segment": "The adoption of MFA, advanced monitoring, and proactive security policies can help mitigate these threats effectively.",
+      "is_footnote": false,
+      "confidence": null,
+      "rationale": null,
+      "file_ref": "x-idoubles-file--a9396dc8-af36-4415-94cf-8c255b41ff6f"
+    },
+    {
+      "type": "x-idoubles-capec-cluster",
+      "id": "x-idoubles-capec-cluster--02c9ae5b-bac1-4349-bf46-21cd469c697b",
+      "spec_version": "2.1",
+      "capec_id": "640",
+      "name": "Inclusion of Code in Existing Process",
+      "description": "The adversary takes advantage of a bug in an application failing to verify the integrity of the running process to execute arbitrary code in the address space of a separate live process. The adversary could use running code in the context of another process to try to access process's memory, system/network resources, etc. The goal of this attack is to evade detection defenses and escalate privileges by masking the malicious code under an existing legitimate process. Examples of approaches include but not limited to: dynamic-link library (DLL) injection, portable executable injection, thread execution hijacking, ptrace system calls, VDSO hijacking, function hooking, reflective code loading, and more.",
+      "confidence": "0.85",
+      "rationale": "Abnormal network traffic involving tools like Rclone and ExMatter indicates data being transferred over alternative protocols or cloud services. This exemplifies exfiltration over alternative protocols, where attackers use non‑standard channels to steal data.",
+      "prerequisites": null,
+      "indicators": null,
+      "resources_required": null,
+      "mitigations": null,
+      "example_instances": null,
+      "paragraph_refs": ["x-idoubles-paragraph--56180a52-6182-4b76-8bd9-a42f6653b78c"],
+      "x_idoubles_context_details": [
+        {
+          "contextId": "dc6334ad-8525-4520-8b25-ca45bf162bb1",
+          "artifactIds": ["56180a52-6182-4b76-8bd9-a42f6653b78c"],
+          "rationale": "Abnormal network traffic involving tools like Rclone and ExMatter indicates data being transferred over alternative protocols or cloud services. This exemplifies exfiltration over alternative protocols, where attackers use non‑standard channels to steal data.",
+          "confidence": "0.85"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-capec-cluster",
+      "id": "x-idoubles-capec-cluster--015f82fa-970f-4631-b027-17ffec131fd6",
+      "spec_version": "2.1",
+      "capec_id": "37",
+      "name": "Retrieve Embedded Sensitive Data",
+      "description": "An attacker examines a target system to find sensitive data that has been embedded within it. This information can reveal confidential contents, such as account numbers or individual keys/credentials that can be used as an intermediate step in a larger attack.",
+      "confidence": "0.93",
+      "rationale": "The paragraph reports credential harvesting using Mimikatz (ATT&CK T1056) to extract passwords and tickets from memory for privilege escalation, which is a concrete example of extracting embedded sensitive data from a system, fulfilling the CAPEC-37 description.",
+      "prerequisites": null,
+      "indicators": null,
+      "resources_required": null,
+      "mitigations": null,
+      "example_instances": null,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--ab89f52d-3c9a-462f-a806-4346d8b253cb",
+        "x-idoubles-paragraph--f6238624-bdcb-4a99-a408-7b3f2a9974bf"
+      ],
+      "x_idoubles_context_details": [
+        {
+          "contextId": "6ac49290-e926-4acd-8271-7fe9d110b98d",
+          "artifactIds": ["f6238624-bdcb-4a99-a408-7b3f2a9974bf"],
+          "rationale": "The text describes credential dumping (ATT&CK T1003) combined with obfuscation to extract stored passwords and hashes from the target system while evading detection, exemplifying the retrieval of embedded sensitive data such as credentials, which is the core of CAPEC-37.",
+          "confidence": "0.92"
+        },
+        {
+          "contextId": "69e3e1a8-45af-4531-b3ac-9b291bb62b9b",
+          "artifactIds": ["ab89f52d-3c9a-462f-a806-4346d8b253cb"],
+          "rationale": "The paragraph reports credential harvesting using Mimikatz (ATT&CK T1056) to extract passwords and tickets from memory for privilege escalation, which is a concrete example of extracting embedded sensitive data from a system, fulfilling the CAPEC-37 description.",
+          "confidence": "0.93"
+        }
+      ]
+    },
+    {
+      "type": "x-idoubles-capec-cluster",
+      "id": "x-idoubles-capec-cluster--13006f92-3d50-4dab-805c-d5e345754949",
+      "spec_version": "2.1",
+      "capec_id": "163",
+      "name": "Spear Phishing",
+      "description": "An adversary targets a specific user or group with a Phishing (CAPEC-98) attack tailored to a category of users in order to have maximum relevance and deceptive capability. Spear Phishing is an enhanced version of the Phishing attack targeted to a specific user or group. The quality of the targeted email is usually enhanced by appearing to come from a known or trusted entity. If the email account of some trusted entity has been compromised the message may be digitally signed. The message will contain information specific to the targeted users that will enhance the probability that they will follow the URL to the compromised site. For example, the message may indicate knowledge of the targets employment, residence, interests, or other information that suggests familiarity. As soon as the user follows the instructions in the message, the attack proceeds as a standard Phishing attack.",
+      "confidence": "0.95",
+      "rationale": "The description notes that the attack followed a 'Spear Phishing with Malicious Attachment' pattern, where victims were lured into opening an infected file, directly reflecting the targeted, deceptive email approach defined in CAPEC-163.",
+      "prerequisites": null,
+      "indicators": null,
+      "resources_required": null,
+      "mitigations": null,
+      "example_instances": null,
+      "paragraph_refs": [
+        "x-idoubles-paragraph--9d840df9-1afa-48d0-8f8d-0d56bba43e76",
+        "x-idoubles-paragraph--d7d4c7cc-e370-445f-a430-4ae2b5ac9397"
+      ],
+      "x_idoubles_context_details": [
+        {
+          "contextId": "6c6be80a-a96c-401d-845c-cc3dafe85f0e",
+          "artifactIds": ["9d840df9-1afa-48d0-8f8d-0d56bba43e76"],
+          "rationale": "The paragraph explicitly states that T1204 (Spear Phishing) was employed to deliver the QakBot malware, indicating that a crafted phishing email targeting specific users was used to entice them to execute malicious content, which aligns precisely with the Spear Phishing pattern of CAPEC-163.",
+          "confidence": "0.95"
+        },
+        {
+          "contextId": "a0690288-8695-43a8-a351-3dff8649ffcd",
+          "artifactIds": ["d7d4c7cc-e370-445f-a430-4ae2b5ac9397"],
+          "rationale": "The description notes that the attack followed a 'Spear Phishing with Malicious Attachment' pattern, where victims were lured into opening an infected file, directly reflecting the targeted, deceptive email approach defined in CAPEC-163.",
+          "confidence": "0.95"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--c6d9e2f3-6de9-4993-9424-2406ab10e92c",
+      "spec_version": "2.1",
+      "name": "LSASS Memory",
+      "description": "Adversaries may attempt to access credential material stored in the process memory of the Local Security Authority Subsystem Service (LSASS). After a user logs on, the system generates and stores a variety of credential materials in LSASS process memory. These credential materials can be harvested by an administrative user or SYSTEM and used to conduct [Lateral Movement](https://attack.mitre.org/tactics/TA0008) using [Use Alternate Authentication Material](https://attack.mitre.org/techniques/T1550).\n\nAs well as in-memory techniques, the LSASS process memory can be dumped from the target host and analyzed on a local system.\n\nFor example, on the target host use procdump:\n\n* <code>procdump -ma lsass.exe lsass_dump</code>\n\nLocally, mimikatz can be run using:\n\n* <code>sekurlsa::Minidump lsassdump.dmp</code>\n* <code>sekurlsa::logonPasswords</code>\n\nBuilt-in Windows tools such as `comsvcs.dll` can also be used:\n\n* <code>rundll32.exe C:\\Windows\\System32\\comsvcs.dll MiniDump PID  lsass.dmp full</code>(Citation: Volexity Exchange Marauder March 2021)(Citation: Symantec Attacks Against Government Sector)\n\nSimilar to [Image File Execution Options Injection](https://attack.mitre.org/techniques/T1546/012), the silent process exit mechanism can be abused to create a memory dump of `lsass.exe` through Windows Error Reporting (`WerFault.exe`).(Citation: Deep Instinct LSASS)\n\nWindows Security Support Provider (SSP) DLLs are loaded into LSASS process at system start. Once loaded into the LSA, SSP DLLs have access to encrypted and plaintext passwords that are stored in Windows, such as any logged-on user's Domain password or smart card PINs. The SSP configuration is stored in two Registry keys: <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages</code> and <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages</code>. An adversary may modify these Registry keys to add new SSPs, which will be loaded the next time the system boots, or when the AddSecurityPackage Windows API function is called.(Citation: Graeber 2014)\n\nThe following SSPs can be used to access credentials:\n\n* Msv: Interactive logons, batch logons, and service logons are done through the MSV authentication package.\n* Wdigest: The Digest Authentication protocol is designed for use with Hypertext Transfer Protocol (HTTP) and Simple Authentication Security Layer (SASL) exchanges.(Citation: TechNet Blogs Credential Protection)\n* Kerberos: Preferred for mutual client-server domain authentication in Windows 2000 and later.\n* CredSSP:  Provides SSO and Network Level Authentication for Remote Desktop Services.(Citation: TechNet Blogs Credential Protection)\n",
+      "external_references": [
+        {
+          "id": "e6d2acc7-5cfa-40a5-a2d1-a905fae548f9",
+          "source_name": "Volexity Exchange Marauder March 2021",
+          "url": "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+          "description": "Gruzweig, J. et al. (2021, March 2). Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities. Retrieved March 3, 2021."
+        },
+        {
+          "id": "faf808f6-087d-4879-9677-dcbb59460272",
+          "source_name": "Powersploit",
+          "url": "https://github.com/mattifestation/PowerSploit",
+          "description": "PowerSploit. (n.d.). Retrieved December 4, 2014."
+        },
+        {
+          "id": "d2ae56bf-1c96-449e-98c6-7faafa470aea",
+          "source_name": "Graeber 2014",
+          "url": "http://docplayer.net/20839173-Analysis-of-malicious-security-support-provider-dlls.html",
+          "description": "Graeber, M. (2014, October). Analysis of Malicious Security Support Provider DLLs. Retrieved March 1, 2017."
+        },
+        {
+          "id": "ec377a69-65b6-42b5-a92a-8ffe9e72f08f",
+          "source_name": "Symantec Attacks Against Government Sector",
+          "url": "https://symantec.broadcom.com/hubfs/Attacks-Against-Government-Sector.pdf",
+          "description": "Symantec. (2021, June 10). Attacks Against the Government Sector. Retrieved September 28, 2021."
+        },
+        {
+          "id": "001d3701-0635-41fc-811d-239ee125a117",
+          "source_name": "Deep Instinct LSASS",
+          "url": "https://www.deepinstinct.com/blog/lsass-memory-dumps-are-stealthier-than-ever-before-part-2",
+          "description": "Gilboa, A. (2021, February 16). LSASS Memory Dumps are Stealthier than Ever Before - Part 2. Retrieved December 27, 2023."
+        },
+        {
+          "id": "922439fc-64ef-4d1e-aaa9-48d72bb8dfbe",
+          "source_name": "Medium Detecting Attempts to Steal Passwords from Memory",
+          "url": "https://medium.com/threatpunter/detecting-attempts-to-steal-passwords-from-memory-558f16dce4ea",
+          "description": "French, D. (2018, October 2). Detecting Attempts to Steal Passwords from Memory. Retrieved October 11, 2019."
+        },
+        {
+          "id": "fd8b5777-9679-491f-bfbb-8e4921498fae",
+          "external_id": "T1003.001",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1003/001"
+        },
+        {
+          "id": "e0945b9c-939c-4deb-94d3-bab164c5ad2f",
+          "source_name": "TechNet Blogs Credential Protection",
+          "url": "https://blogs.technet.microsoft.com/askpfeplat/2016/04/18/the-importance-of-kb2871997-and-kb2928120-for-credential-protection/",
+          "description": "Wilson, B. (2016, April 18). The Importance of KB2871997 and KB2928120 for Credential Protection. Retrieved April 11, 2018."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 1667,
+        "y": 263
+      },
+      "x_idoubles_cluster_id": "15fb1ad6-cbde-49ba-8420-b84ce99eb988",
+      "x_idoubles_cluster_ids": ["15fb1ad6-cbde-49ba-8420-b84ce99eb988"],
+      "x_idoubles_confidence_score": "0.7",
+      "x_ttp_number": "T1003.001",
+      "x_platforms": ["Windows"],
+      "x_is_subtechnique": true,
+      "kill_chain_phases": [
+        {
+          "id": "30bb6d0a-e32c-4f18-9e3c-e8678f2c6fec",
+          "phase_name": "credential-access",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "15fb1ad6-cbde-49ba-8420-b84ce99eb988",
+          "artifactIds": ["bdc5f871-ae8e-4c25-b7bc-310f2d2627d7"],
+          "rationale": "Mimikatz was observed being used to harvest credentials, a classic example of OS Credential Dumping from LSASS memory, which aligns with the OS Credential Dumping sub‑technique. By extracting password hashes and plain‑text credentials, the attackers gain privileged access.",
+          "confidence": "0.7"
+        }
+      ],
+      "x_related_paragraphs": [
+        "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--68af8a2f-f32f-455c-9081-202daf6909d0",
+      "spec_version": "2.1",
+      "name": "OS Credential Dumping",
+      "description": "Adversaries may attempt to dump credentials to obtain account login and credential material, normally in the form of a hash or a clear text password. Credentials can be obtained from OS caches, memory, or structures.(Citation: Brining MimiKatz to Unix) Credentials can then be used to perform [Lateral Movement](https://attack.mitre.org/tactics/TA0008) and access restricted information.\n\nSeveral of the tools mentioned in associated sub-techniques may be used by both adversaries and professional security testers. Additional custom tools likely exist as well.\n",
+      "external_references": [
+        {
+          "id": "4370dec7-4305-4c17-9822-4468a6ce6817",
+          "source_name": "Harmj0y DCSync Sept 2015",
+          "url": "http://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/",
+          "description": "Schroeder, W. (2015, September 22). Mimikatz and DCSync and ExtraSids, Oh My. Retrieved December 4, 2017."
+        },
+        {
+          "id": "ff6a73e5-52c3-407c-9610-25e9cfccce8a",
+          "source_name": "Microsoft DRSR Dec 2017",
+          "url": "https://msdn.microsoft.com/library/cc228086.aspx",
+          "description": "Microsoft. (2017, December 1). MS-DRSR Directory Replication Service (DRS) Remote Protocol. Retrieved December 4, 2017."
+        },
+        {
+          "id": "bb210a08-3b73-473f-8c37-8ca6e7cadaba",
+          "source_name": "Medium Detecting Attempts to Steal Passwords from Memory",
+          "url": "https://medium.com/threatpunter/detecting-attempts-to-steal-passwords-from-memory-558f16dce4ea",
+          "description": "French, D. (2018, October 2). Detecting Attempts to Steal Passwords from Memory. Retrieved October 11, 2019."
+        },
+        {
+          "id": "879f358b-3a1f-4ce4-914c-4fb185d4957b",
+          "source_name": "Microsoft GetNCCChanges",
+          "url": "https://msdn.microsoft.com/library/dd207691.aspx",
+          "description": "Microsoft. (n.d.). IDL_DRSGetNCChanges (Opnum 3). Retrieved December 4, 2017."
+        },
+        {
+          "id": "048f9fe3-a574-4721-abd0-c4aad70e68b7",
+          "source_name": "Microsoft NRPC Dec 2017",
+          "url": "https://msdn.microsoft.com/library/cc237008.aspx",
+          "description": "Microsoft. (2017, December 1). MS-NRPC - Netlogon Remote Protocol. Retrieved December 6, 2017."
+        },
+        {
+          "id": "a11724ef-2550-4d77-a19e-87ba816e6916",
+          "source_name": "Brining MimiKatz to Unix",
+          "url": "https://labs.portcullis.co.uk/download/eu-18-Wadhwa-Brown-Where-2-worlds-collide-Bringing-Mimikatz-et-al-to-UNIX.pdf",
+          "description": "Tim Wadhwa-Brown. (2018, November). Where 2 worlds collide Bringing Mimikatz et al to UNIX. Retrieved October 13, 2021."
+        },
+        {
+          "id": "59534680-9f92-4367-99be-2c45f37605b7",
+          "source_name": "AdSecurity DCSync Sept 2015",
+          "url": "https://adsecurity.org/?p=1729",
+          "description": "Metcalf, S. (2015, September 25). Mimikatz DCSync Usage, Exploitation, and Detection. Retrieved December 4, 2017."
+        },
+        {
+          "id": "b9d30763-6576-43d0-a813-b30f96e11f47",
+          "source_name": "Microsoft SAMR",
+          "url": "https://msdn.microsoft.com/library/cc245496.aspx",
+          "description": "Microsoft. (n.d.). MS-SAMR Security Account Manager (SAM) Remote Protocol (Client-to-Server) - Transport. Retrieved December 4, 2017."
+        },
+        {
+          "id": "c8c34b59-a591-468e-a3fa-2c74197b9a5c",
+          "external_id": "T1003",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1003"
+        },
+        {
+          "id": "61faf308-8275-4549-8c63-471d12c30c62",
+          "source_name": "Powersploit",
+          "url": "https://github.com/mattifestation/PowerSploit",
+          "description": "PowerSploit. (n.d.). Retrieved December 4, 2014."
+        },
+        {
+          "id": "0dc9db45-fa42-4f0f-9fdd-286948b37db3",
+          "source_name": "Samba DRSUAPI",
+          "url": "https://wiki.samba.org/index.php/DRSUAPI",
+          "description": "SambaWiki. (n.d.). DRSUAPI. Retrieved December 4, 2017."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 1223,
+        "y": 391
+      },
+      "x_idoubles_cluster_id": "15fb1ad6-cbde-49ba-8420-b84ce99eb988",
+      "x_idoubles_cluster_ids": ["15fb1ad6-cbde-49ba-8420-b84ce99eb988", "6ac49290-e926-4acd-8271-7fe9d110b98d"],
+      "x_idoubles_confidence_score": "1.0",
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7",
+        "x-idoubles-paragraph--a9074205-a951-43e7-a0f3-e0d05966ff45",
+        "x-idoubles-paragraph--f6238624-bdcb-4a99-a408-7b3f2a9974bf"
+      ],
+      "x_ttp_number": "T1003",
+      "x_platforms": ["Windows", "Linux", "macOS"],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "e26917d1-b0ac-4aeb-9143-64a45e24d064",
+          "phase_name": "credential-access",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "6ac49290-e926-4acd-8271-7fe9d110b98d",
+          "artifactIds": ["f6238624-bdcb-4a99-a408-7b3f2a9974bf"],
+          "rationale": "The threat actors performed credential dumping, extracting password hashes and secrets from the operating system, which aligns with the OS Credential Dumping technique used to obtain credential material for further exploitation.",
+          "confidence": "1.0"
+        },
+        {
+          "contextId": "15fb1ad6-cbde-49ba-8420-b84ce99eb988",
+          "artifactIds": ["bdc5f871-ae8e-4c25-b7bc-310f2d2627d7"],
+          "rationale": "The intelligence report highlights an increased use of MimiKatz for credential harvesting, a tool that extracts stored credentials from memory and other system locations. This activity exemplifies OS Credential Dumping, a credential‑access method used to obtain user and system passwords. The mention of MimiKatz confirms the technique being employed.",
+          "confidence": "0.9"
+        }
+      ],
+      "x_related_paragraphs": [
+        "The use of T1078 (Stolen Credentials) enabled the attackers to gain initial access to the environment, bypassing authentication mechanisms.",
+        "The attackers effectively combined credential dumping (T1003) and obfuscation (T1036) to evade detection while setting up persistence mechanisms.",
+        "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--eb5f2226-be05-43f1-8220-268ca81ee71c",
+      "spec_version": "2.1",
+      "name": "Masquerading",
+      "description": "Adversaries may attempt to manipulate features of their artifacts to make them appear legitimate or benign to users and/or security tools. Masquerading occurs when the name or location of an object, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. This may include manipulating file metadata, tricking users into misidentifying the file type, and giving legitimate task or service names.\n\nRenaming abusable system utilities to evade security monitoring is also a form of [Masquerading](https://attack.mitre.org/techniques/T1036).(Citation: LOLBAS Main Site)",
+      "external_references": [
+        {
+          "id": "3f125c7e-c005-48c2-aff4-2307d79f4880",
+          "source_name": "Elastic Masquerade Ball",
+          "url": "https://www.elastic.co/blog/how-hunt-masquerade-ball",
+          "description": "Ewing, P. (2016, October 31). How to Hunt: The Masquerade Ball. Retrieved October 31, 2016."
+        },
+        {
+          "id": "fbf9ce0e-3e20-4353-a339-37f76c7449dc",
+          "external_id": "T1036",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1036"
+        },
+        {
+          "id": "4467e2b1-48ce-4940-a807-60cde9912f6c",
+          "source_name": "Twitter ItsReallyNick Masquerading Update",
+          "url": "https://x.com/ItsReallyNick/status/1055321652777619457",
+          "description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved September 12, 2024."
+        },
+        {
+          "id": "b2405b9a-8dd7-40b0-a6ab-50e1a7bcd06b",
+          "source_name": "LOLBAS Main Site",
+          "url": "https://lolbas-project.github.io/",
+          "description": "LOLBAS. (n.d.). Living Off The Land Binaries and Scripts (and also Libraries). Retrieved February 10, 2020."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 1601,
+        "y": -456
+      },
+      "x_idoubles_cluster_id": "6ac49290-e926-4acd-8271-7fe9d110b98d",
+      "x_idoubles_cluster_ids": ["6ac49290-e926-4acd-8271-7fe9d110b98d"],
+      "x_idoubles_confidence_score": "1.0",
+      "x_ttp_number": "T1036",
+      "x_platforms": ["Linux", "macOS", "Windows", "Containers", "ESXi"],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "8d8d418d-6438-4255-b104-5aaf137e008f",
+          "phase_name": "defense-evasion",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "6ac49290-e926-4acd-8271-7fe9d110b98d",
+          "artifactIds": ["f6238624-bdcb-4a99-a408-7b3f2a9974bf"],
+          "rationale": "Obfuscation tactics were employed to disguise malicious artifacts, making detection by security tools more difficult. By altering filenames, encoding payloads, or using deceptive identifiers, the attackers concealed their activity. This corresponds to the defense‑evasion technique of masquerading or obfuscating malicious code.",
+          "confidence": "1.0"
+        }
+      ],
+      "x_related_paragraphs": [
+        "The use of T1078 (Stolen Credentials) enabled the attackers to gain initial access to the environment, bypassing authentication mechanisms.",
+        "The attackers effectively combined credential dumping (T1003) and obfuscation (T1036) to evade detection while setting up persistence mechanisms."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--5c0875fc-9d99-41c8-b1d8-c34b48bdce20",
+      "spec_version": "2.1",
+      "name": "User Execution",
+      "description": "An adversary may rely upon specific actions by a user in order to gain execution. Users may be subjected to social engineering to get them to execute malicious code by, for example, opening a malicious document file or link. These user actions will typically be observed as follow-on behavior from forms of [Phishing](https://attack.mitre.org/techniques/T1566).\n\nWhile [User Execution](https://attack.mitre.org/techniques/T1204) frequently occurs shortly after Initial Access it may occur at other phases of an intrusion, such as when an adversary places a file in a shared directory or on a user's desktop hoping that a user will click on it. This activity may also be seen shortly after [Internal Spearphishing](https://attack.mitre.org/techniques/T1534).\n\nAdversaries may also deceive users into performing actions such as:\n\n* Enabling [Remote Access Tools](https://attack.mitre.org/techniques/T1219), allowing direct control of the system to the adversary\n* Running malicious JavaScript in their browser, allowing adversaries to [Steal Web Session Cookie](https://attack.mitre.org/techniques/T1539)s(Citation: Talos Roblox Scam 2023)(Citation: Krebs Discord Bookmarks 2023)\n* Downloading and executing malware for [User Execution](https://attack.mitre.org/techniques/T1204)\n* Coerceing users to copy, paste, and execute malicious code manually(Citation: Reliaquest-execution)(Citation: proofpoint-selfpwn)\n\nFor example, tech support scams can be facilitated through [Phishing](https://attack.mitre.org/techniques/T1566), vishing, or various forms of user interaction. Adversaries can use a combination of these methods, such as spoofing and promoting toll-free numbers or call centers that are used to direct victims to malicious websites, to deliver and execute payloads containing malware or [Remote Access Tools](https://attack.mitre.org/techniques/T1219).(Citation: Telephone Attack Delivery)",
+      "external_references": [
+        {
+          "id": "a8f2a96c-0456-4cd5-b04f-d58992d6239b",
+          "source_name": "Krebs Discord Bookmarks 2023",
+          "url": "https://krebsonsecurity.com/2023/05/discord-admins-hacked-by-malicious-bookmarks/",
+          "description": "Brian Krebs. (2023, May 30). Discord Admins Hacked by Malicious Bookmarks. Retrieved January 2, 2024."
+        },
+        {
+          "id": "5fe9a48d-584c-4645-9659-8eddd069f4c8",
+          "external_id": "T1204",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1204"
+        },
+        {
+          "id": "67fbaf89-7b0d-4c1a-9f75-e78a9410acc0",
+          "source_name": "proofpoint-selfpwn",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "description": "Tommy Madjar, Dusty Miller, Selena Larson. (2024, June 17). From Clipboard to Compromise: A PowerShell Self-Pwn. Retrieved August 2, 2024."
+        },
+        {
+          "id": "73b64d0e-58c7-4e82-a198-e27965dcb059",
+          "source_name": "Telephone Attack Delivery",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/caught-beneath-landline-411-telephone-oriented-attack-delivery",
+          "description": "Selena Larson, Sam Scholten, Timothy Kromphardt. (2021, November 4). Caught Beneath the Landline: A 411 on Telephone Oriented Attack Delivery. Retrieved January 5, 2022."
+        },
+        {
+          "id": "de7d3eb4-5eb3-4180-8889-ab01a1f86e43",
+          "source_name": "Talos Roblox Scam 2023",
+          "url": "https://blog.talosintelligence.com/roblox-scam-overview/",
+          "description": "Tiago Pereira. (2023, November 2). Attackers use JavaScript URLs, API forms and more to scam users in popular online game “Roblox”. Retrieved January 2, 2024."
+        },
+        {
+          "id": "d3132ab2-4d17-4da5-84b8-c8a4169ede61",
+          "source_name": "Reliaquest-execution",
+          "url": "https://www.reliaquest.com/blog/new-execution-technique-in-clearfake-campaign/",
+          "description": "Reliaquest. (2024, May 31). New Execution Technique in ClearFake Campaign. Retrieved August 2, 2024."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 750,
+        "y": 847
+      },
+      "x_idoubles_cluster_id": "a0690288-8695-43a8-a351-3dff8649ffcd",
+      "x_idoubles_cluster_ids": ["a0690288-8695-43a8-a351-3dff8649ffcd"],
+      "x_idoubles_confidence_score": "1.0",
+      "x_ttp_number": "T1204",
+      "x_platforms": ["Linux", "Windows", "macOS", "IaaS", "Containers"],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "73417849-ae57-4bf9-8ac8-623128247461",
+          "phase_name": "execution",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "a0690288-8695-43a8-a351-3dff8649ffcd",
+          "artifactIds": ["d7d4c7cc-e370-445f-a430-4ae2b5ac9397"],
+          "rationale": "The attack employed a spear‑phishing campaign with a malicious attachment, enticing the recipient to open the file and thereby trigger execution of the malicious payload, which is characteristic of the User Execution technique.",
+          "confidence": "1.0"
+        }
+      ],
+      "x_related_paragraphs": [
+        "The observed attack followed the 'Spear Phishing with Malicious Attachment' (T1204) pattern, where an attacker lured victims into opening an infected file."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--26b70999-1991-47fb-9e24-1f7e0d128069",
+      "spec_version": "2.1",
+      "name": "Exfiltration Over Web Service",
+      "description": "Adversaries may use an existing, legitimate external Web service to exfiltrate data rather than their primary command and control channel. Popular Web services acting as an exfiltration mechanism may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to compromise. Firewall rules may also already exist to permit traffic to these services.\n\nWeb service providers also commonly use SSL/TLS encryption, giving adversaries an added level of protection.",
+      "external_references": [
+        {
+          "id": "c2e6c7e2-269a-43bc-90e2-f3f6a632e5ee",
+          "external_id": "T1567",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1567"
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 983,
+        "y": 301
+      },
+      "x_idoubles_cluster_id": "0b57388e-ceb1-4888-a7ef-b6d171da6ab7",
+      "x_idoubles_cluster_ids": [
+        "0b57388e-ceb1-4888-a7ef-b6d171da6ab7",
+        "4f2a319e-edde-4384-b7f9-8f02bb45316b",
+        "a37a27a5-21a0-429e-9cb4-3db39fb5c560"
+      ],
+      "x_idoubles_confidence_score": "1.0",
+      "x_ttp_number": "T1567",
+      "x_platforms": ["Linux", "Office Suite", "SaaS", "Windows", "macOS", "ESXi"],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "f1d05d09-e917-405c-96bc-a0913f90df15",
+          "phase_name": "exfiltration",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+          "artifactIds": ["c538e550-4a84-4240-ae95-2a533bdbaff5"],
+          "rationale": "The investigation notes that ExMatter and Rclone were actively used to extract sensitive data before encryption, consistent with the Data Exfiltration technique. This dual‑tool approach demonstrates deliberate theft of information prior to impact.",
+          "confidence": "1.0"
+        },
+        {
+          "contextId": "0b57388e-ceb1-4888-a7ef-b6d171da6ab7",
+          "artifactIds": ["b3ff32f2-2000-4856-aafd-067be2ce7ba1"],
+          "rationale": "The narrative specifies that the ExMatter tool was used to exfiltrate data during the attack, directly illustrating the Data Exfiltration technique. This tool facilitates bulk transfer of files from the victim environment to the attacker.",
+          "confidence": "1.0"
+        },
+        {
+          "contextId": "4f2a319e-edde-4384-b7f9-8f02bb45316b",
+          "artifactIds": ["65a0e0d1-85c1-4131-b77b-a8d7722aa200", "6d311dd9-c9e5-454f-832d-84d16757eafe"],
+          "rationale": "The incident description notes that the ransomware group exfiltrated victim data prior to encrypting it, a hallmark of the Data Exfiltration technique where attackers steal information before impacting availability. By extracting files before the encryption step, the actors ensure they have leverage for double extortion, matching the ATT&CK definition of exfiltrating data as a preparatory step.",
+          "confidence": "0.5"
+        }
+      ],
+      "x_related_paragraphs": [
+        "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+        "This incident highlights the evolving ransomware landscape, where multiple groups reuse TTPs and tools across attacks.",
+        "T1036 (Obfuscation Techniques) played a crucial role in bypassing endpoint detection tools, allowing the ransomware to execute stealthily.",
+        "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+        "This aligns with T1486 (Ransomware Deployment), where Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim.",
+        "- ExMatter, previously linked to BlackMatter, was used for data exfiltration in the attack.",
+        "ION confirmed no ransom was paid.",
+        "On 31 January 2023, ION Clear Derivatives suffered a ransomware attack, later attributed to LockBit 3.0.",
+        "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+        "- An FS-ISAC member experienced a cyber incident involving LockBit 3.0 ransomware affecting ESXi servers.",
+        "- LockBit 3.0 is a RaaS derived from BlackMatter ransomware, employing double extortion tactics by exfiltrating data before encryption."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--1dd7b639-c7a2-4aa8-bd85-bb410e992d9e",
+      "spec_version": "2.1",
+      "name": "Data Encrypted for Impact",
+      "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.(Citation: US-CERT Ransomware 2016)(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)(Citation: US-CERT SamSam 2018)\n\nIn the case of ransomware, it is typical that common user files like Office documents, PDFs, images, videos, audio, text, and source code files will be encrypted (and often renamed and/or tagged with specific file markers). Adversaries may need to first employ other behaviors, such as [File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222) or [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529), in order to unlock and/or gain access to manipulate these files.(Citation: CarbonBlack Conti July 2020) In some cases, adversaries may encrypt critical system files, disk partitions, and the MBR.(Citation: US-CERT NotPetya 2017) Adversaries may also encrypt virtual machines hosted on ESXi or other hypervisors.(Citation: Crowdstrike Hypervisor Jackpotting Pt 2 2021) \n\nTo maximize impact on the target organization, malware designed for encrypting data may have worm-like features to propagate across a network by leveraging other attack techniques like [Valid Accounts](https://attack.mitre.org/techniques/T1078), [OS Credential Dumping](https://attack.mitre.org/techniques/T1003), and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002).(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017) Encryption malware may also leverage [Internal Defacement](https://attack.mitre.org/techniques/T1491/001), such as changing victim wallpapers or ESXi server login messages, or otherwise intimidate victims by sending ransom notes or other messages to connected printers (known as \"print bombing\").(Citation: NHS Digital Egregor Nov 2020)(Citation: Varonis)\n\nIn cloud environments, storage objects within compromised accounts may also be encrypted.(Citation: Rhino S3 Ransomware Part 1) For example, in AWS environments, adversaries may leverage services such as AWS’s Server-Side Encryption with Customer Provided Keys (SSE-C) to encrypt data.(Citation: Halcyon AWS Ransomware 2025)",
+      "external_references": [
+        {
+          "id": "53031e6a-837c-416a-9301-fe4fdafccd52",
+          "external_id": "T1486",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1486"
+        },
+        {
+          "id": "24f79b17-1279-4b0e-92c9-e9e13c210208",
+          "source_name": "CarbonBlack Conti July 2020",
+          "url": "https://www.carbonblack.com/blog/tau-threat-discovery-conti-ransomware/",
+          "description": "Baskin, B. (2020, July 8). TAU Threat Discovery: Conti Ransomware. Retrieved February 17, 2021."
+        },
+        {
+          "id": "157b5787-8061-4c46-9571-e43d3e0e8bc5",
+          "source_name": "NHS Digital Egregor Nov 2020",
+          "url": "https://digital.nhs.uk/cyber-alerts/2020/cc-3681#summary",
+          "description": "NHS Digital. (2020, November 26). Egregor Ransomware The RaaS successor to Maze. Retrieved December 29, 2020."
+        },
+        {
+          "id": "b32f6d7a-435c-4a28-b7f0-50447fc891e4",
+          "source_name": "US-CERT Ransomware 2016",
+          "url": "https://www.us-cert.gov/ncas/alerts/TA16-091A",
+          "description": "US-CERT. (2016, March 31). Alert (TA16-091A): Ransomware and Recent Variants. Retrieved March 15, 2019."
+        },
+        {
+          "id": "af42d72f-ebe1-459b-a749-687909cfc2aa",
+          "source_name": "FireEye WannaCry 2017",
+          "url": "https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html",
+          "description": "Berry, A., Homan, J., and Eitzman, R. (2017, May 23). WannaCry Malware Profile. Retrieved March 15, 2019."
+        },
+        {
+          "id": "f30f547e-ba45-4719-b53e-19c4c608cbd7",
+          "source_name": "Varonis",
+          "url": "https://www.varonis.com/blog/vmware-esxi-in-the-line-of-ransomware-fire",
+          "description": "Jason Hill. (2023, February 8). VMware ESXi in the Line of Ransomware Fire. Retrieved March 26, 2025."
+        },
+        {
+          "id": "d51fe196-63f5-4e90-984c-c5febcf3a82f",
+          "source_name": "Rhino S3 Ransomware Part 1",
+          "url": "https://rhinosecuritylabs.com/aws/s3-ransomware-part-1-attack-vector/",
+          "description": "Gietzen, S. (n.d.). S3 Ransomware Part 1: Attack Vector. Retrieved April 14, 2021."
+        },
+        {
+          "id": "7562a352-77a8-4130-8873-0523549f0f54",
+          "source_name": "Crowdstrike Hypervisor Jackpotting Pt 2 2021",
+          "url": "https://www.crowdstrike.com/en-us/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/",
+          "description": "Michael Dawson. (2021, August 30). Hypervisor Jackpotting, Part 2: eCrime Actors Increase Targeting of ESXi Servers with Ransomware. Retrieved March 26, 2025."
+        },
+        {
+          "id": "a5696523-366e-4ba2-81a5-89aae07303a8",
+          "source_name": "US-CERT SamSam 2018",
+          "url": "https://www.us-cert.gov/ncas/alerts/AA18-337A",
+          "description": "US-CERT. (2018, December 3). Alert (AA18-337A): SamSam Ransomware. Retrieved March 15, 2019."
+        },
+        {
+          "id": "acd012cd-95a9-4234-84a9-c0724fc1b792",
+          "source_name": "US-CERT NotPetya 2017",
+          "url": "https://www.us-cert.gov/ncas/alerts/TA17-181A",
+          "description": "US-CERT. (2017, July 1). Alert (TA17-181A): Petya Ransomware. Retrieved March 15, 2019."
+        },
+        {
+          "id": "58040790-ce34-4037-912e-6c32ca4da0a9",
+          "source_name": "Halcyon AWS Ransomware 2025",
+          "url": "https://www.halcyon.ai/blog/abusing-aws-native-services-ransomware-encrypting-s3-buckets-with-sse-c",
+          "description": "Halcyon RISE Team. (2025, January 13). Abusing AWS Native Services: Ransomware Encrypting S3 Buckets with SSE-C. Retrieved March 18, 2025."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 1918,
+        "y": 583
+      },
+      "x_idoubles_cluster_id": "a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+      "x_idoubles_cluster_ids": ["a37a27a5-21a0-429e-9cb4-3db39fb5c560"],
+      "x_idoubles_confidence_score": "1.0",
+      "x_ttp_number": "T1486",
+      "x_platforms": ["Linux", "macOS", "Windows", "IaaS", "ESXi"],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "1b4fbf71-cc9a-43d0-a7e9-82b085900b29",
+          "phase_name": "impact",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+          "artifactIds": ["0b782ec8-95db-46c6-90da-422fb96f864a"],
+          "rationale": "The paragraph states that Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim. This directly matches the Data Encrypted for Impact technique, where ransomware encrypts victim data to achieve its destructive effect. The described encryption activity is the defining behavior of this technique.",
+          "confidence": "1.0"
+        }
+      ],
+      "x_related_paragraphs": [
+        "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+        "This incident highlights the evolving ransomware landscape, where multiple groups reuse TTPs and tools across attacks.",
+        "T1036 (Obfuscation Techniques) played a crucial role in bypassing endpoint detection tools, allowing the ransomware to execute stealthily.",
+        "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+        "This aligns with T1486 (Ransomware Deployment), where Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--775bc1a9-3848-4513-9497-d6020ae110f8",
+      "spec_version": "2.1",
+      "name": "Valid Accounts",
+      "description": "Adversaries may obtain and abuse credentials of existing accounts as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Compromised credentials may be used to bypass access controls placed on various resources on systems within the network and may even be used for persistent access to remote systems and externally available services, such as VPNs, Outlook Web Access, network devices, and remote desktop.(Citation: volexity_0day_sophos_FW) Compromised credentials may also grant an adversary increased privilege to specific systems or access to restricted areas of the network. Adversaries may choose not to use malware or tools in conjunction with the legitimate access those credentials provide to make it harder to detect their presence.\n\nIn some cases, adversaries may abuse inactive accounts: for example, those belonging to individuals who are no longer part of an organization. Using these accounts may allow the adversary to evade detection, as the original account user will not be present to identify any anomalous activity taking place on their account.(Citation: CISA MFA PrintNightmare)\n\nThe overlap of permissions for local, domain, and cloud accounts across a network of systems is of concern because the adversary may be able to pivot across accounts and systems to reach a high level of access (i.e., domain or enterprise administrator) to bypass access controls set within the enterprise.(Citation: TechNet Credential Theft)",
+      "external_references": [
+        {
+          "id": "5e07b15a-4f98-4a2a-a3ca-4cbef3772fad",
+          "source_name": "CISA MFA PrintNightmare",
+          "url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-074a",
+          "description": "Cybersecurity and Infrastructure Security Agency. (2022, March 15). Russian State-Sponsored Cyber Actors Gain Network Access by Exploiting Default Multifactor Authentication Protocols and “PrintNightmare” Vulnerability. Retrieved March 16, 2022."
+        },
+        {
+          "id": "bdc62d7d-eeb0-44cf-b41d-172324e67bd7",
+          "source_name": "TechNet Audit Policy",
+          "url": "https://technet.microsoft.com/en-us/library/dn487457.aspx",
+          "description": "Microsoft. (2016, April 15). Audit Policy Recommendations. Retrieved June 3, 2016."
+        },
+        {
+          "id": "a47508b1-0b44-4b92-937f-f34316923d32",
+          "source_name": "volexity_0day_sophos_FW",
+          "url": "https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/",
+          "description": "Adair, S., Lancaster, T., Volexity Threat Research. (2022, June 15). DriftingCloud: Zero-Day Sophos Firewall Exploitation and an Insidious Breach. Retrieved July 1, 2022."
+        },
+        {
+          "id": "90d0ca29-b5f6-40b6-b994-01dd0667ebdf",
+          "source_name": "TechNet Credential Theft",
+          "url": "https://technet.microsoft.com/en-us/library/dn535501.aspx",
+          "description": "Microsoft. (2016, April 15). Attractive Accounts for Credential Theft. Retrieved June 3, 2016."
+        },
+        {
+          "id": "69cf202f-64f5-4e0a-b1a6-42ac89123496",
+          "external_id": "T1078",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1078"
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 1376,
+        "y": 650
+      },
+      "x_idoubles_cluster_id": "6ac49290-e926-4acd-8271-7fe9d110b98d",
+      "x_idoubles_cluster_ids": ["6ac49290-e926-4acd-8271-7fe9d110b98d"],
+      "x_idoubles_confidence_score": "1.0",
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--f6238624-bdcb-4a99-a408-7b3f2a9974bf",
+        "x-idoubles-paragraph--a9074205-a951-43e7-a0f3-e0d05966ff45"
+      ],
+      "x_ttp_number": "T1078",
+      "x_platforms": [
+        "Windows",
+        "SaaS",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Containers",
+        "Network Devices",
+        "Office Suite",
+        "Identity Provider",
+        "ESXi"
+      ],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "74ca1768-79d6-400e-af8f-01883fc04fca",
+          "phase_name": "initial-access",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "6ac49290-e926-4acd-8271-7fe9d110b98d",
+          "artifactIds": ["a9074205-a951-43e7-a0f3-e0d05966ff45"],
+          "rationale": "The adversary leveraged stolen credentials to bypass authentication mechanisms and directly accessed the target environment, matching the Valid Accounts technique that enables initial compromise through compromised accounts.",
+          "confidence": "1.0"
+        }
+      ],
+      "x_related_paragraphs": [
+        "The use of T1078 (Stolen Credentials) enabled the attackers to gain initial access to the environment, bypassing authentication mechanisms.",
+        "The attackers effectively combined credential dumping (T1003) and obfuscation (T1036) to evade detection while setting up persistence mechanisms."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--228d0664-ded1-44d3-9f8d-a10fe21a4060",
+      "spec_version": "2.1",
+      "name": "Remote Services",
+      "description": "Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to log into a service that accepts remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.\n\nIn an enterprise environment, servers and workstations can be organized into domains. Domains provide centralized identity management, allowing users to login using one set of credentials across the entire network. If an adversary is able to obtain a set of valid domain credentials, they could login to many different machines using remote access protocols such as secure shell (SSH) or remote desktop protocol (RDP).(Citation: SSH Secure Shell)(Citation: TechNet Remote Desktop Services) They could also login to accessible SaaS or IaaS services, such as those that federate their identities to the domain, or management platforms for internal virtualization environments such as VMware vCenter. \n\nLegitimate applications (such as [Software Deployment Tools](https://attack.mitre.org/techniques/T1072) and other administrative programs) may utilize [Remote Services](https://attack.mitre.org/techniques/T1021) to access remote hosts. For example, Apple Remote Desktop (ARD) on macOS is native software used for remote management. ARD leverages a blend of protocols, including [VNC](https://attack.mitre.org/techniques/T1021/005) to send the screen and control buffers and [SSH](https://attack.mitre.org/techniques/T1021/004) for secure file transfer.(Citation: Remote Management MDM macOS)(Citation: Kickstart Apple Remote Desktop commands)(Citation: Apple Remote Desktop Admin Guide 3.3) Adversaries can abuse applications such as ARD to gain remote code execution and perform lateral movement. In versions of macOS prior to 10.14, an adversary can escalate an SSH session to an ARD session which enables an adversary to accept TCC (Transparency, Consent, and Control) prompts without user interaction and gain access to data.(Citation: FireEye 2019 Apple Remote Desktop)(Citation: Lockboxx ARD 2019)(Citation: Kickstart Apple Remote Desktop commands)",
+      "external_references": [
+        {
+          "id": "b864f19b-b98c-4086-ab15-66a435ad5b1d",
+          "external_id": "T1021",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1021"
+        },
+        {
+          "id": "c87c6215-1c49-4ab9-91d5-0a9861d50373",
+          "source_name": "Kickstart Apple Remote Desktop commands",
+          "url": "https://support.apple.com/en-us/HT201710",
+          "description": "Apple. (n.d.). Use the kickstart command-line utility in Apple Remote Desktop. Retrieved September 23, 2021."
+        },
+        {
+          "id": "9304f7b5-e681-4843-8a9b-a4dd30c742cd",
+          "source_name": "Apple Unified Log Analysis Remote Login and Screen Sharing",
+          "url": "https://sarah-edwards-xzkc.squarespace.com/blog/2020/4/30/analysis-of-apple-unified-logs-quarantine-edition-entry-6-working-from-home-remote-logins",
+          "description": "Sarah Edwards. (2020, April 30). Analysis of Apple Unified Logs: Quarantine Edition [Entry 6] – Working From Home? Remote Logins. Retrieved August 19, 2021."
+        },
+        {
+          "id": "c50c54cf-4ec7-4ab2-be2d-1d71bea56c4d",
+          "source_name": "SSH Secure Shell",
+          "url": "https://www.ssh.com/ssh",
+          "description": "SSH.COM. (n.d.). SSH (Secure Shell). Retrieved March 23, 2020."
+        },
+        {
+          "id": "bedda476-2391-47a2-a301-54167c119c3b",
+          "source_name": "Remote Management MDM macOS",
+          "url": "https://support.apple.com/en-us/HT209161",
+          "description": "Apple. (n.d.). Use MDM to enable Remote Management in macOS. Retrieved September 23, 2021."
+        },
+        {
+          "id": "dd3579ea-232b-4664-ab60-aac3682d876b",
+          "source_name": "Lockboxx ARD 2019",
+          "url": "http://lockboxx.blogspot.com/2019/07/macos-red-teaming-206-ard-apple-remote.html",
+          "description": "Dan Borges. (2019, July 21). MacOS Red Teaming 206: ARD (Apple Remote Desktop Protocol). Retrieved September 10, 2021."
+        },
+        {
+          "id": "57249ddc-7acf-40a8-96eb-53f10fc42038",
+          "source_name": "FireEye 2019 Apple Remote Desktop",
+          "url": "https://www.fireeye.com/blog/threat-research/2019/10/leveraging-apple-remote-desktop-for-good-and-evil.html",
+          "description": "Jake Nicastro, Willi Ballenthin. (2019, October 9). Living off the Orchard: Leveraging Apple Remote Desktop for Good and Evil. Retrieved August 16, 2021."
+        },
+        {
+          "id": "6d372e0e-2c4d-4ece-af43-f99501428eb5",
+          "source_name": "Apple Remote Desktop Admin Guide 3.3",
+          "url": "https://images.apple.com/remotedesktop/pdf/ARD_Admin_Guide_v3.3.pdf",
+          "description": "Apple. (n.d.). Apple Remote Desktop Administrator Guide Version 3.3. Retrieved October 5, 2021."
+        },
+        {
+          "id": "6aff8d55-b8ef-41ae-af3a-6f660aaf6cec",
+          "source_name": "TechNet Remote Desktop Services",
+          "url": "https://technet.microsoft.com/en-us/windowsserver/ee236407.aspx",
+          "description": "Microsoft. (n.d.). Remote Desktop Services. Retrieved June 1, 2016."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 814,
+        "y": 452
+      },
+      "x_idoubles_cluster_id": "fb83aab9-9cc6-45b9-a924-e3ff63d3be3d",
+      "x_idoubles_cluster_ids": ["fb83aab9-9cc6-45b9-a924-e3ff63d3be3d"],
+      "x_idoubles_confidence_score": "1.0",
+      "x_ttp_number": "T1021",
+      "x_platforms": ["Linux", "macOS", "Windows", "IaaS", "ESXi"],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "cf3cf313-4759-43ba-8046-77d15093d36a",
+          "phase_name": "lateral-movement",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "fb83aab9-9cc6-45b9-a924-e3ff63d3be3d",
+          "artifactIds": ["f350f00e-0a6d-44b6-88c4-aafccb135ff1"],
+          "rationale": "The paragraph describes adversaries exploiting Remote Desktop Protocol as a form of Remote Services (T1021) to move laterally across the network. By abusing the RDP service, the attacker can open remote sessions on target hosts, enabling internal propagation. This aligns with the Remote Services technique, which involves leveraging legitimate remote access mechanisms for lateral movement.",
+          "confidence": "1.0"
+        }
+      ],
+      "x_related_paragraphs": [
+        "Another common attack pattern involved Remote Desktop Protocol (RDP) Exploitation (T1021), which facilitated lateral movement within the network."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--e24a50cc-7547-4a1d-baa3-177e07b7bfc6",
+      "spec_version": "2.1",
+      "name": "Remote Desktop Protocol",
+      "description": "Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to log into a computer using the Remote Desktop Protocol (RDP). The adversary may then perform actions as the logged-on user.\n\nRemote desktop is a common feature in operating systems. It allows a user to log into an interactive session with a system desktop graphical user interface on a remote system. Microsoft refers to its implementation of the Remote Desktop Protocol (RDP) as Remote Desktop Services (RDS).(Citation: TechNet Remote Desktop Services) \n\nAdversaries may connect to a remote system over RDP/RDS to expand access if the service is enabled and allows access to accounts with known credentials. Adversaries will likely use Credential Access techniques to acquire credentials to use with RDP. Adversaries may also use RDP in conjunction with the [Accessibility Features](https://attack.mitre.org/techniques/T1546/008) or [Terminal Services DLL](https://attack.mitre.org/techniques/T1505/005) for Persistence.(Citation: Alperovitch Malware)",
+      "external_references": [
+        {
+          "id": "b7ebc955-eb25-439c-8021-7169bbe4a910",
+          "external_id": "T1021.001",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1021/001"
+        },
+        {
+          "id": "230c2e70-ccea-476f-b890-acd7b035068d",
+          "source_name": "Alperovitch Malware",
+          "url": "https://web.archive.org/web/20191115195333/https://www.crowdstrike.com/blog/adversary-tricks-crowdstrike-treats/",
+          "description": "Alperovitch, D. (2014, October 31). Malware-Free Intrusions. Retrieved November 17, 2024."
+        },
+        {
+          "id": "e1b7bcad-0060-4e5a-bf01-7aa1ff2fbe78",
+          "source_name": "TechNet Remote Desktop Services",
+          "url": "https://technet.microsoft.com/en-us/windowsserver/ee236407.aspx",
+          "description": "Microsoft. (n.d.). Remote Desktop Services. Retrieved June 1, 2016."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 1205,
+        "y": -95
+      },
+      "x_idoubles_cluster_id": "fb83aab9-9cc6-45b9-a924-e3ff63d3be3d",
+      "x_idoubles_cluster_ids": ["fb83aab9-9cc6-45b9-a924-e3ff63d3be3d"],
+      "x_idoubles_confidence_score": "0.7",
+      "x_ttp_number": "T1021.001",
+      "x_platforms": ["Windows"],
+      "x_is_subtechnique": true,
+      "kill_chain_phases": [
+        {
+          "id": "eaf20666-b7bd-4a50-a18f-03a3fb245057",
+          "phase_name": "lateral-movement",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "fb83aab9-9cc6-45b9-a924-e3ff63d3be3d",
+          "artifactIds": ["f350f00e-0a6d-44b6-88c4-aafccb135ff1"],
+          "rationale": "The text explicitly mentions the exploitation of Remote Desktop Protocol (RDP), which corresponds to the sub‑technique Remote Desktop Protocol (T1021.001). The attacker leverages RDP to gain interactive remote access to other systems, facilitating lateral movement within the environment. This behavior matches the definition of the sub‑technique that uses RDP to connect to remote machines for lateral propagation.",
+          "confidence": "0.7"
+        }
+      ],
+      "x_related_paragraphs": [
+        "Another common attack pattern involved Remote Desktop Protocol (RDP) Exploitation (T1021), which facilitated lateral movement within the network."
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--94998bce-87dd-4df7-8ea6-e32942a19039",
+      "spec_version": "2.1",
+      "name": "Boot or Logon Autostart Execution",
+      "description": "Adversaries may configure system settings to automatically execute a program during system boot or logon to maintain persistence or gain higher-level privileges on compromised systems. Operating systems may have mechanisms for automatically running a program on system boot or account logon.(Citation: Microsoft Run Key)(Citation: MSDN Authentication Packages)(Citation: Microsoft TimeProvider)(Citation: Cylance Reg Persistence Sept 2013)(Citation: Linux Kernel Programming) These mechanisms may include automatically executing programs that are placed in specially designated directories or are referenced by repositories that store configuration information, such as the Windows Registry. An adversary may achieve the same goal by modifying or extending features of the kernel.\n\nSince some boot or logon autostart programs run with higher privileges, an adversary may leverage these to elevate privileges.",
+      "external_references": [
+        {
+          "id": "6f0f06b5-a7f2-4af7-a9d9-6a4ff10228b9",
+          "external_id": "T1547",
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1547"
+        },
+        {
+          "id": "8d37ade0-1539-40f6-9b85-95229e87a4d6",
+          "source_name": "Cylance Reg Persistence Sept 2013",
+          "url": "https://web.archive.org/web/20160214140250/http://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order",
+          "description": "Langendorf, S. (2013, September 24). Windows Registry Persistence, Part 2: The Run Keys and Search-Order. Retrieved November 17, 2024."
+        },
+        {
+          "id": "2018664c-c28d-4b9b-a0b9-0f1b0500fbde",
+          "source_name": "TechNet Autoruns",
+          "url": "https://technet.microsoft.com/en-us/sysinternals/bb963902",
+          "description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016."
+        },
+        {
+          "id": "19730606-eb97-4246-ad29-7cbc38695cca",
+          "source_name": "Linux Kernel Programming",
+          "url": "https://www.tldp.org/LDP/lkmpg/2.4/lkmpg.pdf",
+          "description": "Pomerantz, O., Salzman, P.. (2003, April 4). The Linux Kernel Module Programming Guide. Retrieved April 6, 2018."
+        },
+        {
+          "id": "cc6c20fa-eb27-46c9-9985-10444054f40b",
+          "source_name": "MSDN Authentication Packages",
+          "url": "https://msdn.microsoft.com/library/windows/desktop/aa374733.aspx",
+          "description": "Microsoft. (n.d.). Authentication Packages. Retrieved March 1, 2017."
+        },
+        {
+          "id": "8fb1d134-fe45-4bdc-a313-9be0aa01fc67",
+          "source_name": "Microsoft Run Key",
+          "url": "https://learn.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys",
+          "description": "Microsoft. (n.d.). Run and RunOnce Registry Keys. Retrieved September 12, 2024."
+        },
+        {
+          "id": "5371a494-9eac-45ef-b124-dbc688248e2e",
+          "source_name": "Microsoft TimeProvider",
+          "url": "https://msdn.microsoft.com/library/windows/desktop/ms725475.aspx",
+          "description": "Microsoft. (n.d.). Time Provider. Retrieved March 26, 2018."
+        }
+      ],
+      "x_idoubles_layer": "LAYER_1",
+      "x_idoubles_position": {
+        "x": 1462,
+        "y": 802
+      },
+      "x_idoubles_cluster_id": "a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+      "x_idoubles_cluster_ids": ["a37a27a5-21a0-429e-9cb4-3db39fb5c560"],
+      "x_idoubles_confidence_score": "0.9",
+      "x_ttp_number": "T1547",
+      "x_platforms": ["Linux", "macOS", "Windows", "Network Devices"],
+      "x_is_subtechnique": false,
+      "kill_chain_phases": [
+        {
+          "id": "69727494-e37a-47dd-8ba0-ede7b1151bd6",
+          "phase_name": "privilege-escalation",
+          "kill_chain_name": "mitre-attack"
+        }
+      ],
+      "x_context_details": [
+        {
+          "contextId": "a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+          "artifactIds": ["1a961f5d-0a45-4bb2-a034-0418f85c3eff"],
+          "rationale": "Recovered from a structured TTP table row; no paragraph cleared the similarity floor (best 0.44), attached to the closest context with the table row as sole evidence.",
+          "confidence": "0.9"
+        }
+      ],
+      "x_related_paragraphs": [
+        "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+        "This incident highlights the evolving ransomware landscape, where multiple groups reuse TTPs and tools across attacks.",
+        "T1036 (Obfuscation Techniques) played a crucial role in bypassing endpoint detection tools, allowing the ransomware to execute stealthily.",
+        "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+        "This aligns with T1486 (Ransomware Deployment), where Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim."
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "tool--9d2ec8ee-7398-4128-86e1-c2509b6562bf",
+      "spec_version": "2.1",
+      "name": "ExMatter",
+      "description": "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 99,
+        "y": -565
+      },
+      "x_idoubles_cluster_ids": [
+        "0b57388e-ceb1-4888-a7ef-b6d171da6ab7",
+        "a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+        "dc6334ad-8525-4520-8b25-ca45bf162bb1"
+      ],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--56180a52-6182-4b76-8bd9-a42f6653b78c",
+        "x-idoubles-paragraph--c538e550-4a84-4240-ae95-2a533bdbaff5",
+        "x-idoubles-paragraph--b3ff32f2-2000-4856-aafd-067be2ce7ba1"
+      ],
+      "x_idoubles_capec_cluster_refs": ["x-idoubles-capec-cluster--02c9ae5b-bac1-4349-bf46-21cd469c697b"]
+    },
+    {
+      "type": "tool",
+      "id": "tool--fa7c2ae2-2e87-4815-b20d-93bdafc19bc0",
+      "spec_version": "2.1",
+      "name": "Rclone",
+      "description": "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 286,
+        "y": -497
+      },
+      "x_idoubles_cluster_ids": [
+        "4f2a319e-edde-4384-b7f9-8f02bb45316b",
+        "a37a27a5-21a0-429e-9cb4-3db39fb5c560",
+        "dc6334ad-8525-4520-8b25-ca45bf162bb1"
+      ],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--c538e550-4a84-4240-ae95-2a533bdbaff5",
+        "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe",
+        "x-idoubles-paragraph--56180a52-6182-4b76-8bd9-a42f6653b78c"
+      ],
+      "x_idoubles_capec_cluster_refs": ["x-idoubles-capec-cluster--02c9ae5b-bac1-4349-bf46-21cd469c697b"]
+    },
+    {
+      "type": "tool",
+      "id": "tool--dd33da59-e577-4bb6-865e-4d963727be53",
+      "spec_version": "2.1",
+      "name": "MimiKatz",
+      "description": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 438,
+        "y": -369
+      },
+      "x_idoubles_cluster_ids": ["15fb1ad6-cbde-49ba-8420-b84ce99eb988", "69e3e1a8-45af-4531-b3ac-9b291bb62b9b"],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": [
+        "c6d9e2f3-6de9-4993-9424-2406ab10e92c",
+        "68af8a2f-f32f-455c-9081-202daf6909d0"
+      ],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--ab89f52d-3c9a-462f-a806-4346d8b253cb",
+        "x-idoubles-paragraph--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7"
+      ],
+      "x_idoubles_capec_cluster_refs": ["x-idoubles-capec-cluster--015f82fa-970f-4631-b027-17ffec131fd6"]
+    },
+    {
+      "type": "tool",
+      "id": "tool--46a3f390-0f4a-4a25-b29b-adbc8adff133",
+      "spec_version": "2.1",
+      "name": "Cobalt Strike",
+      "description": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 538,
+        "y": -196
+      },
+      "x_idoubles_cluster_ids": [
+        "15fb1ad6-cbde-49ba-8420-b84ce99eb988",
+        "4f2a319e-edde-4384-b7f9-8f02bb45316b",
+        "5b585bb3-3ec0-46d3-bcf0-009da89212c3"
+      ],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": [
+        "c6d9e2f3-6de9-4993-9424-2406ab10e92c",
+        "68af8a2f-f32f-455c-9081-202daf6909d0",
+        "26b70999-1991-47fb-9e24-1f7e0d128069"
+      ],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7",
+        "x-idoubles-paragraph--e5511f0c-8774-4ee9-a493-a31b92dd7d1f",
+        "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe"
+      ]
+    },
+    {
+      "type": "file",
+      "id": "file--60006cdd-5f3a-4bf2-959d-34bd043c94d5",
+      "spec_version": "2.1",
+      "name": "critical files",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -439,
+        "y": 368
+      },
+      "x_idoubles_cluster_ids": ["a37a27a5-21a0-429e-9cb4-3db39fb5c560"],
+      "x_idoubles_confidence_score": "0.9499999999999998",
+      "x_idoubles_assigned_attack_pattern_ids": ["1dd7b639-c7a2-4aa8-bd85-bb410e992d9e"],
+      "x_idoubles_paragraph_refs": ["x-idoubles-paragraph--0b782ec8-95db-46c6-90da-422fb96f864a"]
+    },
+    {
+      "type": "malware",
+      "id": "malware--a416f23f-4c74-4247-9977-4caa90fa8422",
+      "spec_version": "2.1",
+      "name": "Quantum Locker",
+      "description": "This aligns with T1486 (Ransomware Deployment), where Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 572,
+        "y": 0
+      },
+      "x_idoubles_cluster_ids": ["4f2a319e-edde-4384-b7f9-8f02bb45316b", "a37a27a5-21a0-429e-9cb4-3db39fb5c560"],
+      "x_idoubles_confidence_score": "0.9500000000000001",
+      "x_idoubles_assigned_attack_pattern_ids": [
+        "26b70999-1991-47fb-9e24-1f7e0d128069",
+        "1dd7b639-c7a2-4aa8-bd85-bb410e992d9e"
+      ],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--0b782ec8-95db-46c6-90da-422fb96f864a",
+        "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe",
+        "x-idoubles-paragraph--ce329a3e-0dfc-480a-92cd-8f907d1ef233"
+      ]
+    },
+    {
+      "type": "malware",
+      "id": "malware--96589f67-304e-4ff7-9211-c15b3c42cff9",
+      "spec_version": "2.1",
+      "name": "BlackMatter",
+      "description": "- ExMatter, previously linked to BlackMatter, was used for data exfiltration in the attack.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 538,
+        "y": 195
+      },
+      "x_idoubles_cluster_ids": ["0b57388e-ceb1-4888-a7ef-b6d171da6ab7", "4f2a319e-edde-4384-b7f9-8f02bb45316b"],
+      "x_idoubles_confidence_score": "0.95",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--b3ff32f2-2000-4856-aafd-067be2ce7ba1",
+        "x-idoubles-paragraph--65a0e0d1-85c1-4131-b77b-a8d7722aa200"
+      ]
+    },
+    {
+      "type": "malware",
+      "id": "malware--877e128b-e9fd-48a9-ba16-3bdfb052b77c",
+      "spec_version": "2.1",
+      "name": "ALPHV",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 438,
+        "y": 368
+      },
+      "x_idoubles_cluster_ids": ["4f2a319e-edde-4384-b7f9-8f02bb45316b", "a37a27a5-21a0-429e-9cb4-3db39fb5c560"],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--ce329a3e-0dfc-480a-92cd-8f907d1ef233",
+        "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe"
+      ]
+    },
+    {
+      "type": "malware",
+      "id": "malware--197a9382-dcae-4b68-907f-14e009745678",
+      "spec_version": "2.1",
+      "name": "QakBot",
+      "description": "- Educate employees on phishing threats, reducing the risk of QakBot infections (T1204).",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 286,
+        "y": 496
+      },
+      "x_idoubles_cluster_ids": ["6c6be80a-a96c-401d-845c-cc3dafe85f0e"],
+      "x_idoubles_confidence_score": "0.95",
+      "x_idoubles_assigned_attack_pattern_ids": [],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--9d840df9-1afa-48d0-8f8d-0d56bba43e76",
+        "x-idoubles-paragraph--14ce7220-4110-4d75-bf4b-c31e95e37357"
+      ],
+      "x_idoubles_capec_cluster_refs": ["x-idoubles-capec-cluster--13006f92-3d50-4dab-805c-d5e345754949"]
+    },
+    {
+      "type": "malware",
+      "id": "malware--feb523fa-280b-4973-9aa7-5d5f72d57bbc",
+      "spec_version": "2.1",
+      "name": "BlackCat",
+      "description": "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+      "aliases": ["ALPHV"],
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": 99,
+        "y": 564
+      },
+      "x_idoubles_cluster_ids": ["4f2a319e-edde-4384-b7f9-8f02bb45316b", "a37a27a5-21a0-429e-9cb4-3db39fb5c560"],
+      "x_idoubles_confidence_score": "0.95",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--ce329a3e-0dfc-480a-92cd-8f907d1ef233",
+        "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe"
+      ]
+    },
+    {
+      "type": "malware",
+      "id": "malware--401c81f2-5e28-4453-bd89-7f27108530af",
+      "spec_version": "2.1",
+      "name": "LockBit 3.0",
+      "description": "On 31 January 2023, ION Clear Derivatives suffered a ransomware attack, later attributed to LockBit 3.0.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -100,
+        "y": 564
+      },
+      "x_idoubles_cluster_ids": ["4f2a319e-edde-4384-b7f9-8f02bb45316b"],
+      "x_idoubles_confidence_score": "0.9499999999999998",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--44043c86-eb05-49f0-93be-09b6d93e7270",
+        "x-idoubles-paragraph--65a0e0d1-85c1-4131-b77b-a8d7722aa200",
+        "x-idoubles-paragraph--26251b7f-eaa8-45af-a5b6-9ab6687bcd00"
+      ]
+    },
+    {
+      "type": "malware",
+      "id": "malware--068ff852-7248-442e-8f21-18b1194e5cab",
+      "spec_version": "2.1",
+      "name": "Cobalt Strike beacons",
+      "description": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -287,
+        "y": 496
+      },
+      "x_idoubles_cluster_ids": ["4f2a319e-edde-4384-b7f9-8f02bb45316b"],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": ["x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe"]
+    },
+    {
+      "type": "software",
+      "id": "software--58de2691-deec-410e-bba8-5b5fbc335d7e",
+      "spec_version": "2.1",
+      "name": "endpoint detection tools",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -539,
+        "y": 195
+      },
+      "x_idoubles_cluster_ids": ["a37a27a5-21a0-429e-9cb4-3db39fb5c560"],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": [],
+      "x_idoubles_paragraph_refs": ["x-idoubles-paragraph--5dffc31c-4458-4787-b524-8def4af22d1c"]
+    },
+    {
+      "type": "software",
+      "id": "software--c77d3423-1fa0-4e8b-9ae3-2f4968011aef",
+      "spec_version": "2.1",
+      "name": "EDR",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -573,
+        "y": 0
+      },
+      "x_idoubles_cluster_ids": ["5b585bb3-3ec0-46d3-bcf0-009da89212c3"],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": [],
+      "x_idoubles_paragraph_refs": ["x-idoubles-paragraph--e5511f0c-8774-4ee9-a493-a31b92dd7d1f"]
+    },
+    {
+      "type": "software",
+      "id": "software--d75859c7-30f4-4e2d-90d0-cb6b8cd4649b",
+      "spec_version": "2.1",
+      "name": "ESXi",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -539,
+        "y": -196
+      },
+      "x_idoubles_cluster_ids": ["4f2a319e-edde-4384-b7f9-8f02bb45316b"],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": [],
+      "x_idoubles_paragraph_refs": ["x-idoubles-paragraph--26251b7f-eaa8-45af-a5b6-9ab6687bcd00"]
+    },
+    {
+      "type": "threat-actor",
+      "id": "threat-actor--ccfb6172-444f-4ec3-ba9b-98084b3a0f87",
+      "spec_version": "2.1",
+      "name": "LockBit",
+      "description": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -287,
+        "y": -497
+      },
+      "x_idoubles_cluster_ids": [
+        "15fb1ad6-cbde-49ba-8420-b84ce99eb988",
+        "4f2a319e-edde-4384-b7f9-8f02bb45316b",
+        "cc0b3f29-01ae-471d-b432-19c80e8792a3"
+      ],
+      "x_idoubles_assigned_attack_pattern_ids": [
+        "c6d9e2f3-6de9-4993-9424-2406ab10e92c",
+        "68af8a2f-f32f-455c-9081-202daf6909d0",
+        "26b70999-1991-47fb-9e24-1f7e0d128069"
+      ],
+      "x_idoubles_paragraph_refs": [
+        "x-idoubles-paragraph--44043c86-eb05-49f0-93be-09b6d93e7270",
+        "x-idoubles-paragraph--bdc5f871-ae8e-4c25-b7bc-310f2d2627d7",
+        "x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe",
+        "x-idoubles-paragraph--de816665-61a2-45af-91f5-1890b390f52c",
+        "x-idoubles-paragraph--26251b7f-eaa8-45af-a5b6-9ab6687bcd00",
+        "x-idoubles-paragraph--65a0e0d1-85c1-4131-b77b-a8d7722aa200"
+      ]
+    },
+    {
+      "type": "infrastructure",
+      "id": "infrastructure--8cfbcb77-5693-4ac6-9729-3c201cb136fd",
+      "spec_version": "2.1",
+      "name": "Rclone-based exfiltration",
+      "description": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -100,
+        "y": -565
+      },
+      "x_idoubles_cluster_ids": ["4f2a319e-edde-4384-b7f9-8f02bb45316b"],
+      "x_idoubles_confidence_score": "0.96",
+      "x_idoubles_assigned_attack_pattern_ids": ["26b70999-1991-47fb-9e24-1f7e0d128069"],
+      "x_idoubles_paragraph_refs": ["x-idoubles-paragraph--6d311dd9-c9e5-454f-832d-84d16757eafe"]
+    },
+    {
+      "type": "domain-name",
+      "id": "domain-name--2470898a-b351-4516-839b-881dc7f2f49c",
+      "spec_version": "2.1",
+      "x_idoubles_layer": "LAYER_2",
+      "x_idoubles_position": {
+        "x": -439,
+        "y": -369
+      },
+      "x_idoubles_cluster_ids": ["cc0b3f29-01ae-471d-b432-19c80e8792a3"],
+      "x_idoubles_confidence_score": "0.95",
+      "x_idoubles_assigned_attack_pattern_ids": [],
+      "x_idoubles_paragraph_refs": ["x-idoubles-paragraph--de816665-61a2-45af-91f5-1890b390f52c"]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3e0dc655-983d-41c5-a70a-1504d55e3938",
+      "spec_version": "2.1",
+      "pattern": "(\n  [\n    user-account:account_login MATCHES '(?i).*(login|logon|interactive|remote|session).*'\n    AND user-account:x_logon_type IN ('3','10')\n    AND x-event:platform = 'windows'\n    AND x-event:source = 'directory_service'\n    AND x-event:name = 'Logon Session Creation'\n  ]\n  FOLLOWEDBY\n  [\n    user-account:is_privileged = true\n    AND user-account:x_logon_anomaly MATCHES '(?i).*(off-hours|unusual|service account|new host|impossible travel).*'\n    AND x-event:platform = 'windows'\n    AND x-event:source = 'directory_service'\n    AND x-event:name = 'User Account Authentication'\n  ]\n  FOLLOWEDBY\n  [\n    process:image_ref.name IN ('powershell.exe','cmd.exe','rundll32.exe','regsvr32.exe','wscript.exe','cscript.exe','mshta.exe')\n    AND x-event:platform = 'windows'\n    AND x-event:source = 'endpoint_edr'\n    AND x-event:name = 'Process Creation'\n  ]\n)\nOR\n(\n  [\n    user-account:account_login MATCHES '(?i).*(sshd|pam|login|session|remote|interactive).*'\n    AND user-account:account_type = 'unix'\n    AND x-event:platform = 'linux'\n    AND x-event:source = 'directory_service'\n    AND x-event:name = 'Logon Session Creation'\n  ]\n  FOLLOWEDBY\n  [\n    user-account:x_audit_action MATCHES '(?i).*(sudo|su|privilege|service account|off-hours|unusual).*'\n    AND user-account:is_privileged = true\n    AND x-event:platform = 'linux'\n    AND x-event:source = 'directory_service'\n    AND x-event:name = 'Privileged Access'\n  ]\n  FOLLOWEDBY\n  [\n    process:image_ref.name IN ('bash','sh','python','python3','perl','nc')\n    AND x-event:platform = 'linux'\n    AND x-event:source = 'endpoint_edr'\n    AND x-event:name = 'Process Creation'\n  ]\n)\nOR\n(\n  [\n    user-account:account_login MATCHES '(?i).*(loginwindow|sshd|login|session|remote|interactive).*'\n    AND user-account:account_type = 'unix'\n    AND x-event:platform = 'macos'\n    AND x-event:source = 'directory_service'\n    AND x-event:name = 'Logon Session Creation'\n  ]\n  FOLLOWEDBY\n  [\n    user-account:x_audit_action MATCHES '(?i).*(admin|wheel|privilege|service account|unusual|off-hours).*'\n    AND user-account:is_privileged = true\n    AND x-event:platform = 'macos'\n    AND x-event:source = 'directory_service'\n    AND x-event:name = 'Privileged Access'\n  ]\n  FOLLOWEDBY\n  [\n    process:image_ref.name IN ('osascript','launchctl','bash','zsh','sh')\n    AND x-event:platform = 'macos'\n    AND x-event:source = 'endpoint_edr'\n    AND x-event:name = 'Process Creation'\n  ]\n)",
+      "x_idoubles_attack_pattern_ref": "attack-pattern--775bc1a9-3848-4513-9497-d6020ae110f8"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--8c1b0ff6-b066-440e-b743-e0168c221ca7",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "RDP -> RDP",
+      "entity_type": "NETWORK_TRAFFIC",
+      "confidence": "0",
+      "rationale": "Remote Desktop Protocol (RDP) Exploitation, which facilitated lateral movement within the network.",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@49b20541"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--3c38742c-0f09-443f-b13e-a499e357812c",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "ExMatter",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+      "stix_ref": "tool--9d2ec8ee-7398-4128-86e1-c2509b6562bf",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@3316cce"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--b8c1c231-cac9-4def-ac05-69f7db3250a5",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Rclone",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "Further analysis indicates that T1567 (Data Exfiltration via ExMatter and Rclone) was actively leveraged to extract sensitive data before encryption.",
+      "stix_ref": "tool--fa7c2ae2-2e87-4815-b20d-93bdafc19bc0",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@245f9c2f"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--634e87c1-487d-4af1-a870-a60ed01aa9f0",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "LockBit 3.0",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "On 31 January 2023, ION Clear Derivatives suffered a ransomware attack, later attributed to LockBit 3.0.",
+      "stix_ref": "malware--401c81f2-5e28-4453-bd89-7f27108530af",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@1ceebe99"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--9903b14a-94fb-43ac-a285-170254a73432",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "EDR",
+      "entity_type": "SOFTWARE",
+      "confidence": "0.96",
+      "rationale": "Deploy endpoint detection & response (EDR) tools to detect Cobalt Strike activity.",
+      "stix_ref": "software--c77d3423-1fa0-4e8b-9ae3-2f4968011aef",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@452f2848"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--7b361955-9c54-4fd1-ad93-1e4fbdb44257",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Cobalt Strike",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "Cobalt Strike is referenced as a framework employed by the adversary, satisfying the TOOL definition.",
+      "stix_ref": "tool--46a3f390-0f4a-4a25-b29b-adbc8adff133",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@4df06b3f"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--340255a7-af88-4439-9d92-3db36c88d43f",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "QakBot",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "- Educate employees on phishing threats, reducing the risk of QakBot infections (T1204).",
+      "stix_ref": "malware--197a9382-dcae-4b68-907f-14e009745678",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@1596284a"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--4625e32d-7117-41f2-b7a6-f9ffea02203f",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "BlackMatter",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "- LockBit 3.0 is a RaaS derived from BlackMatter ransomware, employing double extortion tactics by exfiltrating data before encryption.",
+      "stix_ref": "malware--96589f67-304e-4ff7-9211-c15b3c42cff9",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@7ce54617"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--6b1a8d19-db46-49dc-9580-bd3ddba10b23",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "LockBit",
+      "entity_type": "THREAT_ACTOR",
+      "confidence": "0.95",
+      "rationale": "- LockBit 3.0 is a RaaS derived from BlackMatter ransomware, employing double extortion tactics by exfiltrating data before encryption.",
+      "stix_ref": "threat-actor--ccfb6172-444f-4ec3-ba9b-98084b3a0f87",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@40b44cab"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--297bcd8d-82ca-4790-a44d-866809a249f2",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "LockBit 3.0",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "- LockBit 3.0 is a RaaS derived from BlackMatter ransomware, employing double extortion tactics by exfiltrating data before encryption.",
+      "stix_ref": "malware--401c81f2-5e28-4453-bd89-7f27108530af",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@e537e11"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--9f2ca8b5-555c-4b01-8894-385ac4f0c0a6",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "ExMatter",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "ExMatter, previously linked to BlackMatter, was used for data exfiltration in the attack.",
+      "stix_ref": "tool--9d2ec8ee-7398-4128-86e1-c2509b6562bf",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@2a23d3e9"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--cf707141-ace8-493a-aec9-62c965ab19c5",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "BlackMatter",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "- ExMatter, previously linked to BlackMatter, was used for data exfiltration in the attack.",
+      "stix_ref": "malware--96589f67-304e-4ff7-9211-c15b3c42cff9",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@7ca0ed44"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--0d742558-aaa0-43b2-985a-769a657b642c",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "endpoint detection tools",
+      "entity_type": "SOFTWARE",
+      "confidence": "0.96",
+      "rationale": "(Obfuscation Techniques) played a crucial role in bypassing endpoint detection tools, allowing the ransomware to execute stealthily.",
+      "stix_ref": "software--58de2691-deec-410e-bba8-5b5fbc335d7e",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@1e93376f"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--4cffb695-49dc-4932-9244-842defbd5687",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "critical files",
+      "entity_type": "FILE",
+      "confidence": "0.95",
+      "rationale": "This aligns with T1486 (Ransomware Deployment), where Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim.",
+      "stix_ref": "file--60006cdd-5f3a-4bf2-959d-34bd043c94d5",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@ba5615a"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--5e68ed10-837c-44eb-8714-9a05ed95ccc8",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Quantum Locker",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "This aligns with T1486 (Ransomware Deployment), where Quantum Locker was used to encrypt critical files, rendering them inaccessible to the victim.",
+      "stix_ref": "malware--a416f23f-4c74-4247-9977-4caa90fa8422",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@3fad575c"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--64e4be57-81cb-482a-9f12-4d0f9b1f8889",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "BlackCat",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "stix_ref": "malware--feb523fa-280b-4973-9aa7-5d5f72d57bbc",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@449c5720"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--e171a84b-0d37-414f-a2ba-a2ace0ee6f03",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Rclone-based exfiltration",
+      "entity_type": "INFRASTRUCTURE",
+      "confidence": "0.96",
+      "rationale": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "stix_ref": "infrastructure--8cfbcb77-5693-4ac6-9729-3c201cb136fd",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@43332893"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--b0c6cb0b-46a1-436a-bd5c-47cb44e1f15a",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Quantum Locker",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "stix_ref": "malware--a416f23f-4c74-4247-9977-4caa90fa8422",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@633c3e1e"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--0676e30b-003a-4ee6-bd75-1a2415f63036",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "LockBit",
+      "entity_type": "THREAT_ACTOR",
+      "confidence": "0.95",
+      "rationale": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "stix_ref": "threat-actor--ccfb6172-444f-4ec3-ba9b-98084b3a0f87",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@367e8292"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--bcc83462-793f-4e84-9067-e4d3cd499122",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Cobalt Strike",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "stix_ref": "tool--46a3f390-0f4a-4a25-b29b-adbc8adff133",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@107de62a"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--310ff411-7531-40c2-b047-739b51c1f4ce",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Rclone",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "stix_ref": "tool--fa7c2ae2-2e87-4815-b20d-93bdafc19bc0",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@4ad03306"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--902edb4f-6b31-4af9-99c1-b03719b1f85f",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "ALPHV",
+      "entity_type": "MALWARE",
+      "confidence": "0.96",
+      "rationale": "ALPHV is identified as an alias of BlackCat ransomware, thus classified as MALWARE.",
+      "stix_ref": "malware--877e128b-e9fd-48a9-ba16-3bdfb052b77c",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@481e388c"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--cb86d7ee-43dd-4490-9f4d-29a12bf9e13c",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Cobalt Strike beacons",
+      "entity_type": "MALWARE",
+      "confidence": "0.96",
+      "rationale": "On 2 February 2023, an FS-ISAC member shared Indicators of Compromise (IOCs) linked to LockBit, revealing overlapping TTPs with BlackCat (ALPHV) and Quantum Locker, both of which leverage Cobalt Strike beacons and Rclone-based exfiltration.",
+      "stix_ref": "malware--068ff852-7248-442e-8f21-18b1194e5cab",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@a36490f"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--5aa32bc1-82d2-40e7-8acc-0f7b3c3f2414",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "QakBot",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "Additionally, T1204 (Spear Phishing) was used to deliver QakBot, facilitating remote command execution and malware deployment.",
+      "stix_ref": "malware--197a9382-dcae-4b68-907f-14e009745678",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@7505b2d5"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--d53d6268-7db2-473b-8a87-c296ed1b098b",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "ALPHV",
+      "entity_type": "MALWARE",
+      "confidence": "0.96",
+      "rationale": "ALPHV is identified as the alias of the BlackCat ransomware family, thus classified as MALWARE.",
+      "stix_ref": "malware--877e128b-e9fd-48a9-ba16-3bdfb052b77c",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@3e86f770"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--bf20ac45-6979-4431-a4a0-19b498324c99",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "BlackCat",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+      "stix_ref": "malware--feb523fa-280b-4973-9aa7-5d5f72d57bbc",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@7e56274"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--01547581-565a-4f7f-b65d-1bba3229df23",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Quantum Locker",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "- Additional malware strains, such as BlackCat (ALPHV) and Quantum Locker, have been observed utilizing similar TTPs for data exfiltration and encryption attacks.",
+      "stix_ref": "malware--a416f23f-4c74-4247-9977-4caa90fa8422",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@3f232db6"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--5aefbdcd-8422-4852-957a-50228131cbe9",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "ESXi",
+      "entity_type": "SOFTWARE",
+      "confidence": "0.96",
+      "rationale": "An FS-ISAC member experienced a cyber incident involving LockBit 3.0 ransomware affecting ESXi servers.",
+      "stix_ref": "software--d75859c7-30f4-4e2d-90d0-cb6b8cd4649b",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@67e8b39d"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--6754f81f-0bd8-46df-97c0-b183614e1a87",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "LockBit 3.0",
+      "entity_type": "MALWARE",
+      "confidence": "0.95",
+      "rationale": "- An FS-ISAC member experienced a cyber incident involving LockBit 3.0 ransomware affecting ESXi servers.",
+      "stix_ref": "malware--401c81f2-5e28-4453-bd89-7f27108530af",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@6e5ce567"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--f6a66ecd-d4c7-463d-a7bc-c4bbe8191c90",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Rclone",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "Monitor for abnormal network traffic, particularly Rclone and ExMatter usage (T1567).",
+      "stix_ref": "tool--fa7c2ae2-2e87-4815-b20d-93bdafc19bc0",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@4286dc1a"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--3c5262df-f830-4ae0-9522-d5edca02d30d",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "ExMatter",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "Monitor for abnormal network traffic, particularly Rclone and ExMatter usage (T1567).",
+      "stix_ref": "tool--9d2ec8ee-7398-4128-86e1-c2509b6562bf",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@646e0761"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--935353aa-c8cc-40bc-a147-ae4c4f44bbc2",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Mimikatz",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "This led to credential harvesting ( T1056 ) using Mimikatz, allowing privilege escalation.",
+      "stix_ref": "tool--dd33da59-e577-4bb6-865e-4d963727be53",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@46b8342a"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--cbc0b56c-1eb7-4042-9909-769b691aee9e",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "LockBit",
+      "entity_type": "THREAT_ACTOR",
+      "confidence": "0.95",
+      "rationale": "com appeared on LockBit's leak site, though later removed.",
+      "stix_ref": "threat-actor--ccfb6172-444f-4ec3-ba9b-98084b3a0f87",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@4f469647"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--c5427235-321a-4464-b3a5-8c0f23f023d3",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "iongroup.com",
+      "entity_type": "DOMAIN",
+      "confidence": "0.95",
+      "rationale": "Shortly after, iongroup. com appeared on LockBit's leak site, though later removed.",
+      "stix_ref": "domain-name--2470898a-b351-4516-839b-881dc7f2f49c",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@3b54e5b9"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--d4c84268-e061-4cb1-be9a-dc16f95e1195",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "MimiKatz",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "stix_ref": "tool--dd33da59-e577-4bb6-865e-4d963727be53",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@2f95a8bd"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--b275aeb0-6a74-45c1-824e-5763245e733e",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "LockBit",
+      "entity_type": "THREAT_ACTOR",
+      "confidence": "0.95",
+      "rationale": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "stix_ref": "threat-actor--ccfb6172-444f-4ec3-ba9b-98084b3a0f87",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@280bd001"
+    },
+    {
+      "type": "x-idoubles-entity",
+      "id": "x-idoubles-entity--96a23d69-e9cc-4b9a-afab-41c23f2700cf",
+      "spec_version": "2.1",
+      "entity_id": null,
+      "value": "Cobalt Strike",
+      "entity_type": "TOOL",
+      "confidence": "0.96",
+      "rationale": "- Recent intelligence indicates an increase in the use of MimiKatz for credential harvesting and Cobalt Strike for lateral movement alongside LockBit operations.",
+      "stix_ref": "tool--46a3f390-0f4a-4a25-b29b-adbc8adff133",
+      "paragraph_ref": "x-idoubles-paragraph--com.airnet.idoublesbackend.attack_graph_meta.domain.model.Paragraph@53049fe9"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--4e181cb6-ba26-478e-bf03-b328c86dc047",
+      "spec_version": "2.1",
+      "relationship_type": "depends on",
+      "x_idoubles_layer": "LAYER_1",
+      "source_ref": "775bc1a9-3848-4513-9497-d6020ae110f8",
+      "target_ref": "68af8a2f-f32f-455c-9081-202daf6909d0",
+      "x_idoubles_rationale": "T1078 (Stolen Credentials) requires credentials that are typically obtained via T1003 (Credential Dumping)"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c1f7be71-6f6d-4f7b-b3ea-a12c11181c6d",
+      "spec_version": "2.1",
+      "relationship_type": "uses",
+      "x_idoubles_layer": "LAYER_2",
+      "source_ref": "a416f23f-4c74-4247-9977-4caa90fa8422",
+      "target_ref": "46a3f390-0f4a-4a25-b29b-adbc8adff133",
+      "x_idoubles_rationale": "Quantum Locker incorporates Cobalt Strike beacons to communicate with its operators and orchestrate the encryption phase. Monitoring for Cobalt Strike beacon activity can reveal Quantum Locker infections early."
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f2d1aa02-f659-4880-82fb-a016d408df54",
+      "spec_version": "2.1",
+      "relationship_type": "uses",
+      "x_idoubles_layer": "LAYER_2",
+      "source_ref": "877e128b-e9fd-48a9-ba16-3bdfb052b77c",
+      "target_ref": "46a3f390-0f4a-4a25-b29b-adbc8adff133",
+      "x_idoubles_rationale": "ALPHV leverages Cobalt Strike beacons for command-and-control, enabling the ransomware to receive instructions and coordinate lateral movement. Detect anomalous Cobalt Strike beacon traffic on hosts infected with ALPHV."
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--d22e0f8e-8bf4-4c98-8e8a-014b239d8124",
+      "spec_version": "2.1",
+      "relationship_type": "targets",
+      "x_idoubles_layer": "LAYER_2",
+      "source_ref": "a416f23f-4c74-4247-9977-4caa90fa8422",
+      "target_ref": "60006cdd-5f3a-4bf2-959d-34bd043c94d5",
+      "x_idoubles_rationale": "Quantum Locker was used to encrypt critical files"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--71c15fff-75aa-44ed-a7dd-298986fe9d70",
+      "spec_version": "2.1",
+      "relationship_type": "uses",
+      "x_idoubles_layer": "LAYER_2",
+      "source_ref": "ccfb6172-444f-4ec3-ba9b-98084b3a0f87",
+      "target_ref": "dd33da59-e577-4bb6-865e-4d963727be53",
+      "x_idoubles_rationale": "use of MimiKatz for credential harvesting"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--394a6a86-26a4-4c34-af35-470c27cd7397",
+      "spec_version": "2.1",
+      "relationship_type": "uses",
+      "x_idoubles_layer": "LAYER_2",
+      "source_ref": "ccfb6172-444f-4ec3-ba9b-98084b3a0f87",
+      "target_ref": "46a3f390-0f4a-4a25-b29b-adbc8adff133",
+      "x_idoubles_rationale": "use of Cobalt Strike for lateral movement"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--9d63b806-b8c4-4634-b594-d206d8655aac",
+      "spec_version": "2.1",
+      "relationship_type": "uses",
+      "x_idoubles_layer": "LAYER_2",
+      "source_ref": "96589f67-304e-4ff7-9211-c15b3c42cff9",
+      "target_ref": "9d2ec8ee-7398-4128-86e1-c2509b6562bf",
+      "x_idoubles_rationale": "ExMatter, previously linked to BlackMatter, was used for data exfiltration in the attack."
+    }
+  ]
+}
