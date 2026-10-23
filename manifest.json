@@ -6,11 +6,7 @@
         "title": "Attack Graph 1",
         "file": "graphs/Attack Graph 1.json"
       },
-      {
-        "id": "2",
-        "title": "Attack Graph 2",
-        "file": "graphs/Attack Graph 2.json"
-      }
+      
     ]
   }
   
